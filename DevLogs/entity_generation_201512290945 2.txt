@@ -1,0 +1,164 @@
+MacBook-Pro-Luda:petition Jenya$ yo jhipster:entity petition
+The entity petition is being created.
+Generating field #1
+? Do you want to add a field to your entity? Yes
+? What is the name of your field? title
+? What is the type of your field? String
+? Do you want to add validation rules to your field? Yes
+? Which validation rules do you want to add? Required, Minimum length, Maximum length
+? What is the minimum length of your field? 10
+? What is the maximum length of your field? 100
+=================Petition=================
+title (String) required minlength='10' maxlength='100' 
+Generating field #2
+? Do you want to add a field to your entity? Yes
+? What is the name of your field? body
+? What is the type of your field? String
+? Do you want to add validation rules to your field? Yes
+? Which validation rules do you want to add? Required, Minimum length, Maximum length
+? What is the minimum length of your field? 100
+? What is the maximum length of your field? 1000
+=================Petition=================
+title (String) required minlength='10' maxlength='100' 
+body (String) required minlength='100' maxlength='1000' 
+Generating field #3
+? Do you want to add a field to your entity? Yes
+? What is the name of your field? creationDateTime
+? What is the type of your field? ZonedDateTime
+? Do you want to add validation rules to your field? Yes
+? Which validation rules do you want to add? Required
+=================Petition=================
+title (String) required minlength='10' maxlength='100' 
+body (String) required minlength='100' maxlength='1000' 
+creationDateTime (ZonedDateTime) required 
+Generating field #4
+? Do you want to add a field to your entity? No
+=================Petition=================
+title (String) required minlength='10' maxlength='100' 
+body (String) required minlength='100' maxlength='1000' 
+creationDateTime (ZonedDateTime) required 
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? Yes
+? What is the name of the other entity? user
+? What is the name of the relationship? user
+? What is the type of the relationship? many-to-one
+? When you display this relationship with AngularJS, which field from 'user' do you want to use? login
+===========Petition==============
+title (String)
+body (String)
+creationDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-one)
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? Yes
+? What is the name of the other entity? subscription
+? What is the name of the relationship? subscription
+? What is the type of the relationship? one-to-one
+? Is this entity the owner of the relationship? No
+? What is the name of this relationship in the other entity? petition
+===========Petition==============
+title (String)
+body (String)
+creationDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-one)
+subscription - subscription (one-to-one)
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? No
+===========Petition==============
+title (String)
+body (String)
+creationDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-one)
+subscription - subscription (one-to-one)
+? Do you want to use a Data Transfer Object (DTO)? No, use the entity directly
+? Do you want to use separate service class for your business logic? No, the REST controller should use the repository directly
+? Do you want pagination on your entity? No
+Everything is configured, generating the entity...
+   create .jhipster/Petition.json
+   create src/main/java/com/mycompany/myapp/domain/Petition.java
+   create src/main/java/com/mycompany/myapp/repository/PetitionRepository.java
+   create src/main/java/com/mycompany/myapp/web/rest/PetitionResource.java
+   create src/main/resources/config/liquibase/changelog/20151229074215_added_entity_Petition.xml
+   create src/main/webapp/scripts/app/entities/petition/petitions.html
+   create src/main/webapp/scripts/app/entities/petition/petition-detail.html
+   create src/main/webapp/scripts/app/entities/petition/petition-dialog.html
+   create src/main/webapp/scripts/app/entities/petition/petition-delete-dialog.html
+   create src/main/webapp/scripts/app/entities/petition/petition.js
+   create src/main/webapp/scripts/app/entities/petition/petition.controller.js
+   create src/main/webapp/scripts/app/entities/petition/petition-dialog.controller.js
+   create src/main/webapp/scripts/app/entities/petition/petition-delete-dialog.controller.js
+   create src/main/webapp/scripts/app/entities/petition/petition-detail.controller.js
+   create src/test/javascript/spec/app/entities/petition/petition-detail.controller.spec.js
+   create src/main/webapp/scripts/components/entities/petition/petition.service.js
+   create src/test/java/com/mycompany/myapp/web/rest/PetitionResourceIntTest.java
+
+MacBook-Pro-Luda:petition Jenya$ yo jhipster:entity subscription
+The entity subscription is being created.
+Generating field #1
+? Do you want to add a field to your entity? Yes
+? What is the name of your field? subscriptionDateTime
+? What is the type of your field? ZonedDateTime
+? Do you want to add validation rules to your field? Yes
+? Which validation rules do you want to add? Required
+=================Subscription=================
+subscriptionDateTime (ZonedDateTime) required 
+Generating field #2
+? Do you want to add a field to your entity? No
+=================Subscription=================
+subscriptionDateTime (ZonedDateTime) required 
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? Yes
+? What is the name of the other entity? user
+? What is the name of the relationship? user
+? What is the type of the relationship? many-to-many
+? Is this entity the owner of the relationship? Yes
+? When you display this relationship with AngularJS, which field from 'user' do you want to use? login
+===========Subscription==============
+subscriptionDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-many)
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? Yes
+? What is the name of the other entity? petition
+? What is the name of the relationship? petition
+? What is the type of the relationship? one-to-one
+? Is this entity the owner of the relationship? Yes
+? What is the name of this relationship in the other entity? subscription
+? When you display this relationship with AngularJS, which field from 'petition' do you want to use? title
+===========Subscription==============
+subscriptionDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-many)
+petition - petition (one-to-one)
+Generating relationships with other entities
+? Do you want to add a relationship to another entity? No
+===========Subscription==============
+subscriptionDateTime (ZonedDateTime)
+-------------------
+user - user (many-to-many)
+petition - petition (one-to-one)
+? Do you want to use a Data Transfer Object (DTO)? No, use the entity directly
+? Do you want to use separate service class for your business logic? No, the REST controller should use the repository directly
+? Do you want pagination on your entity? No
+Everything is configured, generating the entity...
+   create .jhipster/Subscription.json
+   create src/main/java/com/mycompany/myapp/domain/Subscription.java
+   create src/main/java/com/mycompany/myapp/repository/SubscriptionRepository.java
+   create src/main/java/com/mycompany/myapp/web/rest/SubscriptionResource.java
+   create src/main/resources/config/liquibase/changelog/20151229074509_added_entity_Subscription.xml
+   create src/main/webapp/scripts/app/entities/subscription/subscriptions.html
+   create src/main/webapp/scripts/app/entities/subscription/subscription-detail.html
+   create src/main/webapp/scripts/app/entities/subscription/subscription-dialog.html
+   create src/main/webapp/scripts/app/entities/subscription/subscription-delete-dialog.html
+   create src/main/webapp/scripts/app/entities/subscription/subscription.js
+   create src/main/webapp/scripts/app/entities/subscription/subscription.controller.js
+   create src/main/webapp/scripts/app/entities/subscription/subscription-dialog.controller.js
+   create src/main/webapp/scripts/app/entities/subscription/subscription-delete-dialog.controller.js
+   create src/main/webapp/scripts/app/entities/subscription/subscription-detail.controller.js
+   create src/test/javascript/spec/app/entities/subscription/subscription-detail.controller.spec.js
+   create src/main/webapp/scripts/components/entities/subscription/subscription.service.js
+   create src/test/java/com/mycompany/myapp/web/rest/SubscriptionResourceIntTest.java
+
+
