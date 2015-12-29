@@ -1,0 +1,2799 @@
+MacBook-Pro-Luda:petition Jenya$ yo jhipster:petition
+ 
+        ██  ██    ██  ████████  ███████    ██████  ████████  ████████  ███████
+        ██  ██    ██     ██     ██    ██  ██          ██     ██        ██    ██
+        ██  ████████     ██     ███████    █████      ██     ██████    ███████
+  ██    ██  ██    ██     ██     ██             ██     ██     ██        ██   ██
+   ██████   ██    ██  ████████  ██        ██████      ██     ████████  ██    ██
+
+                            http://jhipster.github.io
+
+Welcome to the JHipster Generator v2.26.1
+
+? (5/15) Which *production* database would you like to use? PostgreSQL
+? (7/15) Do you want to use Hibernate 2nd level cache? No
+? (8/15) Do you want to use a search engine in your application? No
+? (9/15) Do you want to use clustered HTTP sessions? No
+? (10/15) Do you want to use WebSockets? No
+? (11/15) Would you like to use Maven or Gradle for building the backend? Maven
+? (12/15) Would you like to use Grunt or Gulp.js for building the frontend? Grunt (recommended)
+? (13/15) Would you like to use the LibSass stylesheet preprocessor for your CSS? Yes
+? (14/15) Would you like to enable translation support with Angular Translate? No
+? (15/15) Which testing frameworks would you like to use? Cucumber
+Remove the file - src/main/java/com/mycompany/myapp/config/MailConfiguration.java
+Remove the file - src/main/java/com/mycompany/myapp/config/metrics/JavaMailHealthIndicator.java
+Remove the folder - src/main/java/com/mycompany/myapp/config/metrics
+Remove the file - src/main/java/com/mycompany/myapp/security/_CustomUserDetails.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/CustomLocalDateSerializer.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/CustomDateTimeSerializer.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/CustomDateTimeDeserializer.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/CustomLocalDateDeserializer.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/DateToZonedDateTimeConverter.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/ZonedDateTimeToDateConverter.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/DateToLocalDateConverter.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/LocalDateToDateConverter.java
+Remove the file - src/main/java/com/mycompany/myapp/domain/util/ISO8601LocalDateDeserializer.java
+Remove the folder - src/main/java/com/mycompany/myapp/web/propertyeditors
+Remove the file - src/main/resources/logback.xml
+Remove the file - src/main/webapp/scripts/app/account/logout/logout.js
+Remove the file - src/main/webapp/scripts/app/account/logout/logout.controller.js
+Remove the folder - src/main/webapp/scripts/app/account/logout
+Remove the file - src/test/java/com/mycompany/myapp/config/MongoConfiguration.java
+Remove the file - src/test/javascript/spec/app/account/health/healthControllerSpec.js
+Remove the file - src/test/javascript/spec/app/account/login/loginControllerSpec.js
+Remove the file - src/test/javascript/spec/app/account/password/passwordControllerSpec.js
+Remove the file - src/test/javascript/spec/app/account/password/passwordDirectiveSpec.js
+Remove the file - src/test/javascript/spec/app/account/sessions/sessionsControllerSpec.js
+Remove the file - src/test/javascript/spec/app/account/settings/settingsControllerSpec.js
+Remove the file - src/test/javascript/spec/components/auth/authServicesSpec.js
+   create bower.json
+   create package.json
+   create README.md
+   create .bowerrc
+   create .gitignore
+   create .gitattributes
+   create docker-compose-prod.yml
+   create Gruntfile.js
+   create mvnw
+   create mvnw.cmd
+   create .mvn/wrapper/maven-wrapper.jar
+   create .mvn/wrapper/maven-wrapper.properties
+   create pom.xml
+   create src/main/resources/banner.txt
+   create src/main/resources/.h2.server.properties
+   create src/main/resources/templates/error.html
+   create src/main/resources/logback-spring.xml
+   create src/main/resources/config/application.yml
+   create src/main/resources/config/application-dev.yml
+   create src/main/resources/config/application-prod.yml
+   create src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml
+   create src/main/resources/config/liquibase/master.xml
+   create src/main/resources/config/liquibase/users.csv
+   create src/main/resources/config/liquibase/authorities.csv
+   create src/main/resources/config/liquibase/users_authorities.csv
+   create src/main/resources/mails/activationEmail.html
+   create src/main/resources/mails/creationEmail.html
+   create src/main/resources/mails/passwordResetEmail.html
+   create src/main/java/com/mycompany/myapp/Application.java
+   create src/main/java/com/mycompany/myapp/ApplicationWebXml.java
+   create src/main/java/com/mycompany/myapp/aop/logging/LoggingAspect.java
+   create src/main/java/com/mycompany/myapp/config/apidoc/package-info.java
+   create src/main/java/com/mycompany/myapp/config/apidoc/SwaggerConfiguration.java
+   create src/main/java/com/mycompany/myapp/async/package-info.java
+   create src/main/java/com/mycompany/myapp/async/ExceptionHandlingAsyncTaskExecutor.java
+   create src/main/java/com/mycompany/myapp/config/package-info.java
+   create src/main/java/com/mycompany/myapp/config/AsyncConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/CacheConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/Constants.java
+   create src/main/java/com/mycompany/myapp/config/CloudDatabaseConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/DatabaseConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/JacksonConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/JHipsterProperties.java
+   create src/main/java/com/mycompany/myapp/config/LocaleConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/LoggingAspectConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/MetricsConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/SecurityConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/ThymeleafConfiguration.java
+   create src/main/java/com/mycompany/myapp/config/WebConfigurer.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/ErrorConstants.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/CustomParameterizedException.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/ErrorDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslator.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/FieldErrorDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/errors/ParameterizedErrorDTO.java
+   create src/main/java/com/mycompany/myapp/config/audit/package-info.java
+   create src/main/java/com/mycompany/myapp/config/audit/AuditEventConverter.java
+   create src/main/java/com/mycompany/myapp/config/locale/package-info.java
+   create src/main/java/com/mycompany/myapp/config/locale/AngularCookieLocaleResolver.java
+   create src/main/java/com/mycompany/myapp/config/liquibase/AsyncSpringLiquibase.java
+   create src/main/java/com/mycompany/myapp/config/liquibase/package-info.java
+   create src/main/java/com/mycompany/myapp/domain/package-info.java
+   create src/main/java/com/mycompany/myapp/domain/AbstractAuditingEntity.java
+   create src/main/java/com/mycompany/myapp/domain/Authority.java
+   create src/main/java/com/mycompany/myapp/domain/PersistentAuditEvent.java
+   create src/main/java/com/mycompany/myapp/domain/PersistentToken.java
+   create src/main/java/com/mycompany/myapp/domain/User.java
+   create src/main/java/com/mycompany/myapp/domain/util/JSR310DateConverters.java
+   create src/main/java/com/mycompany/myapp/domain/util/JSR310PersistenceConverters.java
+   create src/main/java/com/mycompany/myapp/domain/util/JSR310DateTimeSerializer.java
+   create src/main/java/com/mycompany/myapp/domain/util/JSR310LocalDateDeserializer.java
+   create src/main/java/com/mycompany/myapp/domain/util/FixedH2Dialect.java
+   create src/main/java/com/mycompany/myapp/domain/util/FixedPostgreSQL82Dialect.java
+   create src/main/java/com/mycompany/myapp/repository/package-info.java
+   create src/main/java/com/mycompany/myapp/repository/AuthorityRepository.java
+   create src/main/java/com/mycompany/myapp/repository/CustomAuditEventRepository.java
+   create src/main/java/com/mycompany/myapp/repository/PersistenceAuditEventRepository.java
+   create src/main/java/com/mycompany/myapp/repository/UserRepository.java
+   create src/main/java/com/mycompany/myapp/repository/PersistentTokenRepository.java
+   create src/main/java/com/mycompany/myapp/security/package-info.java
+   create src/main/java/com/mycompany/myapp/security/AjaxAuthenticationFailureHandler.java
+   create src/main/java/com/mycompany/myapp/security/AjaxAuthenticationSuccessHandler.java
+   create src/main/java/com/mycompany/myapp/security/AjaxLogoutSuccessHandler.java
+   create src/main/java/com/mycompany/myapp/security/AuthoritiesConstants.java
+   create src/main/java/com/mycompany/myapp/security/CustomAccessDeniedHandler.java
+   create src/main/java/com/mycompany/myapp/security/CustomPersistentRememberMeServices.java
+   create src/main/java/com/mycompany/myapp/security/Http401UnauthorizedEntryPoint.java
+   create src/main/java/com/mycompany/myapp/security/SecurityUtils.java
+   create src/main/java/com/mycompany/myapp/security/SpringSecurityAuditorAware.java
+   create src/main/java/com/mycompany/myapp/security/UserDetailsService.java
+   create src/main/java/com/mycompany/myapp/security/UserNotActivatedException.java
+   create src/main/java/com/mycompany/myapp/service/package-info.java
+   create src/main/java/com/mycompany/myapp/service/AuditEventService.java
+   create src/main/java/com/mycompany/myapp/service/UserService.java
+   create src/main/java/com/mycompany/myapp/service/MailService.java
+   create src/main/java/com/mycompany/myapp/service/util/RandomUtil.java
+   create src/main/java/com/mycompany/myapp/web/filter/package-info.java
+   create src/main/java/com/mycompany/myapp/web/filter/CachingHttpHeadersFilter.java
+   create src/main/java/com/mycompany/myapp/web/filter/StaticResourcesProductionFilter.java
+   create src/main/java/com/mycompany/myapp/web/filter/CsrfCookieGeneratorFilter.java
+   create src/main/java/com/mycompany/myapp/web/rest/dto/package-info.java
+   create src/main/java/com/mycompany/myapp/web/rest/dto/LoggerDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/dto/UserDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/dto/ManagedUserDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/util/HeaderUtil.java
+   create src/main/java/com/mycompany/myapp/web/rest/dto/KeyAndPasswordDTO.java
+   create src/main/java/com/mycompany/myapp/web/rest/util/PaginationUtil.java
+   create src/main/java/com/mycompany/myapp/web/rest/package-info.java
+   create src/main/java/com/mycompany/myapp/web/rest/AccountResource.java
+   create src/main/java/com/mycompany/myapp/web/rest/AuditResource.java
+   create src/main/java/com/mycompany/myapp/web/rest/LogsResource.java
+   create src/main/java/com/mycompany/myapp/web/rest/UserResource.java
+   create src/test/java/com/mycompany/myapp/security/SecurityUtilsUnitTest.java
+   create src/test/java/com/mycompany/myapp/service/UserServiceIntTest.java
+   create src/test/java/com/mycompany/myapp/web/rest/AccountResourceIntTest.java
+   create src/test/java/com/mycompany/myapp/web/rest/AuditResourceIntTest.java
+   create src/test/java/com/mycompany/myapp/web/rest/TestUtil.java
+   create src/test/java/com/mycompany/myapp/web/rest/UserResourceIntTest.java
+   create src/test/resources/config/application.yml
+   create src/test/resources/logback-test.xml
+   create src/test/java/com/mycompany/myapp/cucumber/CucumberTest.java
+   create src/test/java/com/mycompany/myapp/cucumber/UserStepDefs.java
+   create src/test/features/user.feature
+   create src/main/scss/main.scss
+   create src/main/webapp/assets/styles/main.css
+   create src/main/webapp/favicon.ico
+   create src/main/webapp/robots.txt
+   create src/main/webapp/.htaccess
+   create src/main/webapp/404.html
+   create src/main/resources/i18n/messages_en.properties
+   create src/main/webapp/swagger-ui/index.html
+   create src/main/webapp/swagger-ui/images/throbber.gif
+   create src/main/webapp/scripts/app/app.js
+   create src/main/webapp/scripts/components/admin/audits.service.js
+   create src/main/webapp/scripts/components/admin/configuration.service.js
+   create src/main/webapp/scripts/components/admin/logs.service.js
+   create src/main/webapp/scripts/components/admin/monitoring.service.js
+   create src/main/webapp/scripts/components/auth/auth.service.js
+   create src/main/webapp/scripts/components/auth/principal.service.js
+   create src/main/webapp/scripts/components/auth/authority.directive.js
+   create src/main/webapp/scripts/components/auth/provider/auth.session.service.js
+   create src/main/webapp/scripts/components/auth/services/account.service.js
+   create src/main/webapp/scripts/components/auth/services/activate.service.js
+   create src/main/webapp/scripts/components/auth/services/password.service.js
+   create src/main/webapp/scripts/components/auth/services/register.service.js
+   create src/main/webapp/scripts/components/auth/services/sessions.service.js
+   create src/main/webapp/scripts/components/form/form.directive.js
+   create src/main/webapp/scripts/components/form/maxbytes.directive.js
+   create src/main/webapp/scripts/components/form/minbytes.directive.js
+   create src/main/webapp/scripts/components/form/uib-pager.config.js
+   create src/main/webapp/scripts/components/form/uib-pagination.config.js
+   create src/main/webapp/scripts/components/navbar/navbar.directive.js
+   create src/main/webapp/scripts/components/navbar/navbar.html
+   create src/main/webapp/scripts/components/navbar/navbar.controller.js
+   create src/main/webapp/scripts/components/user/user.service.js
+   create src/main/webapp/scripts/components/util/base64.service.js
+   create src/main/webapp/scripts/components/util/capitalize.filter.js
+   create src/main/webapp/scripts/components/util/parse-links.service.js
+   create src/main/webapp/scripts/components/util/truncate.filter.js
+   create src/main/webapp/scripts/components/util/date-util.service.js
+   create src/main/webapp/scripts/components/util/data-util.service.js
+   create src/main/webapp/scripts/components/util/sort.directive.js
+   create src/main/webapp/scripts/app/account/account.js
+   create src/main/webapp/scripts/app/account/activate/activate.html
+   create src/main/webapp/scripts/app/account/activate/activate.js
+   create src/main/webapp/scripts/app/account/activate/activate.controller.js
+   create src/main/webapp/scripts/app/account/login/login.html
+   create src/main/webapp/scripts/app/account/login/login.js
+   create src/main/webapp/scripts/app/account/login/login.controller.js
+   create src/main/webapp/scripts/app/account/password/password.html
+   create src/main/webapp/scripts/app/account/password/password.js
+   create src/main/webapp/scripts/app/account/password/password.controller.js
+   create src/main/webapp/scripts/app/account/password/password.directive.js
+   create src/main/webapp/scripts/app/account/register/register.html
+   create src/main/webapp/scripts/app/account/register/register.js
+   create src/main/webapp/scripts/app/account/register/register.controller.js
+   create src/main/webapp/scripts/app/account/reset/request/reset.request.html
+   create src/main/webapp/scripts/app/account/reset/request/reset.request.js
+   create src/main/webapp/scripts/app/account/reset/request/reset.request.controller.js
+   create src/main/webapp/scripts/app/account/reset/finish/reset.finish.html
+   create src/main/webapp/scripts/app/account/reset/finish/reset.finish.js
+   create src/main/webapp/scripts/app/account/reset/finish/reset.finish.controller.js
+   create src/main/webapp/scripts/app/account/sessions/sessions.html
+   create src/main/webapp/scripts/app/account/sessions/sessions.js
+   create src/main/webapp/scripts/app/account/sessions/sessions.controller.js
+   create src/main/webapp/scripts/app/account/settings/settings.html
+   create src/main/webapp/scripts/app/account/settings/settings.js
+   create src/main/webapp/scripts/app/account/settings/settings.controller.js
+   create src/main/webapp/scripts/app/admin/admin.js
+   create src/main/webapp/scripts/app/admin/audits/audits.html
+   create src/main/webapp/scripts/app/admin/audits/audits.js
+   create src/main/webapp/scripts/app/admin/audits/audits.controller.js
+   create src/main/webapp/scripts/app/admin/configuration/configuration.html
+   create src/main/webapp/scripts/app/admin/configuration/configuration.js
+   create src/main/webapp/scripts/app/admin/configuration/configuration.controller.js
+   create src/main/webapp/scripts/app/admin/docs/docs.html
+   create src/main/webapp/scripts/app/admin/docs/docs.js
+   create src/main/webapp/scripts/app/admin/health/health.html
+   create src/main/webapp/scripts/app/admin/health/health.modal.html
+   create src/main/webapp/scripts/app/admin/health/health.js
+   create src/main/webapp/scripts/app/admin/health/health.controller.js
+   create src/main/webapp/scripts/app/admin/health/health.modal.controller.js
+   create src/main/webapp/scripts/app/admin/logs/logs.html
+   create src/main/webapp/scripts/app/admin/logs/logs.js
+   create src/main/webapp/scripts/app/admin/logs/logs.controller.js
+   create src/main/webapp/scripts/app/admin/metrics/metrics.html
+   create src/main/webapp/scripts/app/admin/metrics/metrics.modal.html
+   create src/main/webapp/scripts/app/admin/metrics/metrics.js
+   create src/main/webapp/scripts/app/admin/metrics/metrics.controller.js
+   create src/main/webapp/scripts/app/admin/metrics/metrics.modal.controller.js
+   create src/main/webapp/scripts/app/admin/user-management/user-management.html
+   create src/main/webapp/scripts/app/admin/user-management/user-management-detail.html
+   create src/main/webapp/scripts/app/admin/user-management/user-management-dialog.html
+   create src/main/webapp/scripts/app/admin/user-management/user-management-delete-dialog.html
+   create src/main/webapp/scripts/app/admin/user-management/user-management.js
+   create src/main/webapp/scripts/app/admin/user-management/user-management.controller.js
+   create src/main/webapp/scripts/app/admin/user-management/user-management-detail.controller.js
+   create src/main/webapp/scripts/app/admin/user-management/user-management-dialog.controller.js
+   create src/main/webapp/scripts/app/admin/user-management/user-management-delete-dialog.controller.js
+   create src/main/webapp/scripts/app/error/error.html
+   create src/main/webapp/scripts/app/error/accessdenied.html
+   create src/main/webapp/scripts/app/entities/entity.js
+   create src/main/webapp/scripts/app/error/error.js
+   create src/main/webapp/scripts/app/main/main.html
+   create src/main/webapp/scripts/app/main/main.js
+   create src/main/webapp/scripts/app/main/main.controller.js
+   create src/main/webapp/scripts/components/interceptor/auth.interceptor.js
+   create src/main/webapp/scripts/components/interceptor/errorhandler.interceptor.js
+   create src/main/webapp/scripts/components/interceptor/notification.interceptor.js
+   create src/main/webapp/scripts/components/alert/alert.service.js
+   create src/main/webapp/scripts/components/alert/alert.directive.js
+   create src/test/javascript/karma.conf.js
+   create src/test/javascript/spec/helpers/module.js
+   create src/test/javascript/spec/helpers/httpBackend.js
+   create src/test/javascript/spec/app/admin/health/health.controller.spec.js
+   create src/test/javascript/spec/app/account/login/login.controller.spec.js
+   create src/test/javascript/spec/app/account/password/password.controller.spec.js
+   create src/test/javascript/spec/app/account/password/password.directive.spec.js
+   create src/test/javascript/spec/app/account/settings/settings.controller.spec.js
+   create src/test/javascript/spec/app/account/activate/activate.controller.spec.js
+   create src/test/javascript/spec/app/account/register/register.controller.spec.js
+   create src/test/javascript/spec/app/account/reset/finish/reset.finish.controller.spec.js
+   create src/test/javascript/spec/app/account/reset/request/reset.request.controller.spec.js
+   create src/test/javascript/spec/components/auth/auth.services.spec.js
+   create src/test/javascript/spec/app/account/sessions/sessions.controller.spec.js
+   create src/main/webapp/assets/styles/documentation.css
+   create src/main/webapp/assets/images/development_ribbon.png
+   create src/main/webapp/assets/images/hipster.png
+   create src/main/webapp/assets/images/hipster2x.png
+   create src/main/webapp/index.html
+   create .editorconfig
+   create .jshintrc
+   create .travis.yml
+
+
+I'm all done. Running npm install & bower install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+npm WARN deprecated lodash@0.9.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+npm WARN deprecated lodash@1.0.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+npm WARN deprecated lodash@2.4.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^3.0.0.
+npm WARN prefer global marked@0.3.5 should be installed with -g
+npm WARN prefer global jshint@2.8.0 should be installed with -g
+npm WARN prefer global node-gyp@3.2.1 should be installed with -g
+
+> fsevents@1.0.6 install /Users/Jenya/IdeaProjects/petition/node_modules/fsevents
+> node-pre-gyp install --fallback-to-build
+
+[fsevents] Success: "/Users/Jenya/IdeaProjects/petition/node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node" is installed via remote
+
+> bufferutil@1.2.1 install /Users/Jenya/IdeaProjects/petition/node_modules/bufferutil
+> node-gyp rebuild
+
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/bufferutil.node
+
+> utf-8-validate@1.2.1 install /Users/Jenya/IdeaProjects/petition/node_modules/utf-8-validate
+> node-gyp rebuild
+
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/validation.node
+
+> phantomjs@1.9.18 install /Users/Jenya/IdeaProjects/petition/node_modules/phantomjs
+> node install.js
+
+Download already available at /var/folders/1c/fc0kwk153sldh24mnb8ybrlc0000gp/T/phantomjs/phantomjs-1.9.8-macosx.zip
+Extracting zip contents
+Removing /Users/Jenya/IdeaProjects/petition/node_modules/phantomjs/lib/phantom
+Copying extracted folder /var/folders/1c/fc0kwk153sldh24mnb8ybrlc0000gp/T/phantomjs/phantomjs-1.9.8-macosx.zip-extract-1451331483195/phantomjs-1.9.8-macosx -> /Users/Jenya/IdeaProjects/petition/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /Users/Jenya/IdeaProjects/petition/node_modules/phantomjs/lib/phantom/bin/phantomjs
+
+> node-sass@3.4.2 install /Users/Jenya/IdeaProjects/petition/node_modules/node-sass
+> node scripts/install.js
+
+Binary downloaded and installed at /Users/Jenya/IdeaProjects/petition/node_modules/node-sass/vendor/darwin-x64-46/binding.node
+
+> spawn-sync@1.0.13 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/spawn-sync
+> node postinstall
+
+
+> node-sass@3.4.2 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/node-sass
+> node scripts/build.js
+
+` /Users/Jenya/IdeaProjects/petition/node_modules/node-sass/vendor/darwin-x64-46/binding.node ` exists. 
+ testing binary.
+Binary is fine; exiting.
+
+> customizr@1.0.0-alpha postinstall /Users/Jenya/IdeaProjects/petition/node_modules/customizr
+> node scripts/postinstall.js
+
+
+> grunt-modernizr@1.0.1 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/grunt-modernizr
+> node postinstall.js
+
+
+> optipng-bin@3.0.4 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/optipng-bin
+> node lib/install.js
+
+  ✔ optipng pre-build test passed successfully
+
+> jpegtran-bin@3.0.6 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/jpegtran-bin
+> node lib/install.js
+
+  ✔ jpegtran pre-build test passed successfully
+
+> gifsicle@3.0.3 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/gifsicle
+> node lib/install.js
+
+  ✔ gifsicle pre-build test passed successfully
+
+> yo@1.5.1 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ Node.js version
+✔ No .bowerrc file in home directory
+✔ No .yo-rc.json file in home directory
+✔ npm version
+
+Everything looks all right!
+
+> yo@1.4.8 postinstall /Users/Jenya/IdeaProjects/petition/node_modules/generator-jhipster/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ Node.js version
+✔ No .bowerrc file in home directory
+✔ No .yo-rc.json file in home directory
+✔ npm version
+
+Everything looks all right!
+petition@0.0.0 /Users/Jenya/IdeaProjects/petition
+├─┬ bower@1.7.1 
+│ ├── abbrev@1.0.7 
+│ ├── archy@1.0.0 
+│ ├─┬ bower-config@1.3.0 
+│ │ ├── graceful-fs@4.1.2 
+│ │ ├─┬ optimist@0.6.1 
+│ │ │ ├── minimist@0.0.10 
+│ │ │ └── wordwrap@0.0.3 
+│ │ ├─┬ osenv@0.1.3 
+│ │ │ ├── os-homedir@1.0.1 
+│ │ │ └── os-tmpdir@1.0.1 
+│ │ └─┬ untildify@2.1.0 
+│ │   └── os-homedir@1.0.1 
+│ ├── bower-endpoint-parser@0.2.2 
+│ ├─┬ bower-json@0.4.0 
+│ │ ├── deep-extend@0.2.11 
+│ │ ├── graceful-fs@2.0.3 
+│ │ └── intersect@0.0.3 
+│ ├── bower-logger@0.2.2 
+│ ├─┬ bower-registry-client@1.0.0 
+│ │ ├── async@0.2.10 
+│ │ ├── graceful-fs@4.1.2 
+│ │ ├── mkdirp@0.3.5 
+│ │ └── request-replay@0.2.0 
+│ ├─┬ cardinal@0.4.4 
+│ │ ├── ansicolors@0.2.1 
+│ │ └─┬ redeyed@0.4.4 
+│ │   └── esprima@1.0.4 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├── escape-string-regexp@1.0.3 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├─┬ strip-ansi@3.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├── chmodr@1.0.2 
+│ ├─┬ configstore@0.3.2 
+│ │ ├─┬ js-yaml@3.4.6 
+│ │ │ ├─┬ argparse@1.0.3 
+│ │ │ │ ├── lodash@3.10.1 
+│ │ │ │ └── sprintf-js@1.0.3 
+│ │ │ ├── esprima@2.7.1 
+│ │ │ └── inherit@2.2.2 
+│ │ ├── object-assign@2.1.1 
+│ │ ├─┬ osenv@0.1.3 
+│ │ │ ├── os-homedir@1.0.1 
+│ │ │ └── os-tmpdir@1.0.1 
+│ │ ├── uuid@2.0.1 
+│ │ └── xdg-basedir@1.0.1 
+│ ├─┬ decompress-zip@0.1.0 
+│ │ ├─┬ binary@0.3.0 
+│ │ │ ├── buffers@0.1.1 
+│ │ │ └─┬ chainsaw@0.1.0 
+│ │ │   └── traverse@0.3.9 
+│ │ ├── mkpath@0.1.0 
+│ │ ├─┬ readable-stream@1.1.13 
+│ │ │ ├── core-util-is@1.0.2 
+│ │ │ ├── inherits@2.0.1 
+│ │ │ ├── isarray@0.0.1 
+│ │ │ └── string_decoder@0.10.31 
+│ │ └─┬ touch@0.0.3 
+│ │   └── nopt@1.0.10 
+│ ├── destroy@1.0.3 
+│ ├─┬ fs-write-stream-atomic@1.0.7 
+│ │ ├── graceful-fs@4.1.2 
+│ │ ├── iferr@0.1.5 
+│ │ ├── imurmurhash@0.1.4 
+│ │ └─┬ readable-stream@2.0.4 
+│ │   ├── core-util-is@1.0.2 
+│ │   ├── inherits@2.0.1 
+│ │   ├── isarray@0.0.1 
+│ │   ├── process-nextick-args@1.0.6 
+│ │   ├── string_decoder@0.10.31 
+│ │   └── util-deprecate@1.0.2 
+│ ├─┬ fstream@1.0.8 
+│ │ ├── graceful-fs@4.1.2 
+│ │ └── inherits@2.0.1 
+│ ├─┬ fstream-ignore@1.0.3 
+│ │ ├── inherits@2.0.1 
+│ │ └─┬ minimatch@3.0.0 
+│ │   └─┬ brace-expansion@1.1.2 
+│ │     ├── balanced-match@0.3.0 
+│ │     └── concat-map@0.0.1 
+│ ├─┬ github@0.2.4 
+│ │ └── mime@1.3.4 
+│ ├─┬ glob@4.5.3 
+│ │ ├─┬ inflight@1.0.4 
+│ │ │ └── wrappy@1.0.1 
+│ │ ├── inherits@2.0.1 
+│ │ ├─┬ minimatch@2.0.10 
+│ │ │ └─┬ brace-expansion@1.1.2 
+│ │ │   ├── balanced-match@0.3.0 
+│ │ │   └── concat-map@0.0.1 
+│ │ └─┬ once@1.3.3 
+│ │   └── wrappy@1.0.1 
+│ ├── graceful-fs@3.0.8 
+│ ├─┬ handlebars@2.0.0 
+│ │ ├─┬ optimist@0.3.7 
+│ │ │ └── wordwrap@0.0.3 
+│ │ └─┬ uglify-js@2.3.6 
+│ │   ├── async@0.2.10 
+│ │   └─┬ source-map@0.1.43 
+│ │     └── amdefine@1.0.0 
+│ ├─┬ inquirer@0.10.0 
+│ │ ├── ansi-escapes@1.1.0 
+│ │ ├── ansi-regex@2.0.0 
+│ │ ├─┬ cli-cursor@1.0.2 
+│ │ │ └─┬ restore-cursor@1.0.1 
+│ │ │   ├── exit-hook@1.1.1 
+│ │ │   └── onetime@1.0.0 
+│ │ ├── cli-width@1.1.0 
+│ │ ├── figures@1.4.0 
+│ │ ├── lodash@3.10.1 
+│ │ ├─┬ readline2@1.0.1 
+│ │ │ ├─┬ code-point-at@1.0.0 
+│ │ │ │ └── number-is-nan@1.0.0 
+│ │ │ ├─┬ is-fullwidth-code-point@1.0.0 
+│ │ │ │ └── number-is-nan@1.0.0 
+│ │ │ └── mute-stream@0.0.5 
+│ │ ├─┬ run-async@0.1.0 
+│ │ │ └─┬ once@1.3.3 
+│ │ │   └── wrappy@1.0.1 
+│ │ ├── rx-lite@3.1.2 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── through@2.3.8 
+│ ├─┬ insight@0.7.0 
+│ │ ├── async@1.5.0 
+│ │ ├─┬ configstore@1.4.0 
+│ │ │ ├── graceful-fs@4.1.2 
+│ │ │ ├── os-tmpdir@1.0.1 
+│ │ │ ├─┬ osenv@0.1.3 
+│ │ │ │ └── os-homedir@1.0.1 
+│ │ │ ├── uuid@2.0.1 
+│ │ │ ├─┬ write-file-atomic@1.1.4 
+│ │ │ │ ├── imurmurhash@0.1.4 
+│ │ │ │ └── slide@1.1.6 
+│ │ │ └─┬ xdg-basedir@2.0.0 
+│ │ │   └── os-homedir@1.0.1 
+│ │ ├─┬ lodash.debounce@3.1.1 
+│ │ │ └── lodash._getnative@3.9.1 
+│ │ ├── object-assign@4.0.1 
+│ │ ├─┬ os-name@1.0.3 
+│ │ │ ├─┬ osx-release@1.1.0 
+│ │ │ │ └── minimist@1.2.0 
+│ │ │ └─┬ win-release@1.1.1 
+│ │ │   └── semver@5.1.0 
+│ │ └── tough-cookie@2.2.1 
+│ ├── is-root@1.0.0 
+│ ├── junk@1.0.2 
+│ ├── lockfile@1.0.1 
+│ ├── lru-cache@2.7.3 
+│ ├─┬ md5-hex@1.1.0 
+│ │ └── md5-o-matic@0.1.1 
+│ ├─┬ mkdirp@0.5.0 
+│ │ └── minimist@0.0.8 
+│ ├── mout@0.11.1 
+│ ├── nopt@3.0.6 
+│ ├── opn@1.0.2 
+│ ├─┬ p-throttler@0.1.1 
+│ │ └── q@0.9.7 
+│ ├─┬ promptly@0.2.0 
+│ │ └─┬ read@1.0.7 
+│ │   └── mute-stream@0.0.5 
+│ ├── q@1.4.1 
+│ ├─┬ request@2.53.0 
+│ │ ├── aws-sign2@0.5.0 
+│ │ ├─┬ bl@0.9.4 
+│ │ │ └─┬ readable-stream@1.0.33 
+│ │ │   ├── core-util-is@1.0.2 
+│ │ │   ├── inherits@2.0.1 
+│ │ │   ├── isarray@0.0.1 
+│ │ │   └── string_decoder@0.10.31 
+│ │ ├── caseless@0.9.0 
+│ │ ├─┬ combined-stream@0.0.7 
+│ │ │ └── delayed-stream@0.0.5 
+│ │ ├── forever-agent@0.5.2 
+│ │ ├─┬ form-data@0.2.0 
+│ │ │ └── async@0.9.2 
+│ │ ├─┬ hawk@2.3.1 
+│ │ │ ├── boom@2.10.1 
+│ │ │ ├── cryptiles@2.0.5 
+│ │ │ ├── hoek@2.16.3 
+│ │ │ └── sntp@1.0.9 
+│ │ ├─┬ http-signature@0.10.1 
+│ │ │ ├── asn1@0.1.11 
+│ │ │ ├── assert-plus@0.1.5 
+│ │ │ └── ctype@0.5.3 
+│ │ ├── isstream@0.1.2 
+│ │ ├── json-stringify-safe@5.0.1 
+│ │ ├─┬ mime-types@2.0.14 
+│ │ │ └── mime-db@1.12.0 
+│ │ ├── node-uuid@1.4.7 
+│ │ ├── oauth-sign@0.6.0 
+│ │ ├── qs@2.3.3 
+│ │ ├── stringstream@0.0.5 
+│ │ ├── tough-cookie@2.2.1 
+│ │ └── tunnel-agent@0.4.2 
+│ ├─┬ request-progress@0.3.1 
+│ │ └── throttleit@0.0.2 
+│ ├── retry@0.6.1 
+│ ├─┬ rimraf@2.4.4 
+│ │ └─┬ glob@5.0.15 
+│ │   ├─┬ inflight@1.0.4 
+│ │   │ └── wrappy@1.0.1 
+│ │   ├── inherits@2.0.1 
+│ │   ├─┬ minimatch@3.0.0 
+│ │   │ └─┬ brace-expansion@1.1.2 
+│ │   │   ├── balanced-match@0.3.0 
+│ │   │   └── concat-map@0.0.1 
+│ │   ├─┬ once@1.3.3 
+│ │   │ └── wrappy@1.0.1 
+│ │   └── path-is-absolute@1.0.0 
+│ ├── semver@2.3.2 
+│ ├── semver-utils@1.1.1 
+│ ├─┬ shell-quote@1.4.3 
+│ │ ├── array-filter@0.0.1 
+│ │ ├── array-map@0.0.0 
+│ │ ├── array-reduce@0.0.0 
+│ │ └── jsonify@0.0.0 
+│ ├── stringify-object@1.0.1 
+│ ├─┬ tar-fs@1.8.1 
+│ │ ├─┬ pump@1.0.1 
+│ │ │ ├── end-of-stream@1.1.0 
+│ │ │ └─┬ once@1.3.3 
+│ │ │   └── wrappy@1.0.1 
+│ │ └─┬ tar-stream@1.3.1 
+│ │   ├── bl@1.0.0 
+│ │   ├─┬ end-of-stream@1.1.0 
+│ │   │ └─┬ once@1.3.3 
+│ │   │   └── wrappy@1.0.1 
+│ │   ├─┬ readable-stream@2.0.4 
+│ │   │ ├── core-util-is@1.0.2 
+│ │   │ ├── inherits@2.0.1 
+│ │   │ ├── isarray@0.0.1 
+│ │   │ ├── process-nextick-args@1.0.6 
+│ │   │ ├── string_decoder@0.10.31 
+│ │   │ └── util-deprecate@1.0.2 
+│ │   └── xtend@4.0.1 
+│ ├── tmp@0.0.24 
+│ ├─┬ update-notifier@0.6.0 
+│ │ ├─┬ configstore@1.4.0 
+│ │ │ ├── graceful-fs@4.1.2 
+│ │ │ ├── object-assign@4.0.1 
+│ │ │ ├── os-tmpdir@1.0.1 
+│ │ │ ├─┬ osenv@0.1.3 
+│ │ │ │ └── os-homedir@1.0.1 
+│ │ │ ├── uuid@2.0.1 
+│ │ │ ├─┬ write-file-atomic@1.1.4 
+│ │ │ │ ├── imurmurhash@0.1.4 
+│ │ │ │ └── slide@1.1.6 
+│ │ │ └─┬ xdg-basedir@2.0.0 
+│ │ │   └── os-homedir@1.0.1 
+│ │ ├── is-npm@1.0.0 
+│ │ ├─┬ latest-version@2.0.0 
+│ │ │ └─┬ package-json@2.3.0 
+│ │ │   ├─┬ got@5.2.0 
+│ │ │   │ ├─┬ create-error-class@2.0.1 
+│ │ │   │ │ ├── capture-stack-trace@1.0.0 
+│ │ │   │ │ └── inherits@2.0.1 
+│ │ │   │ ├─┬ duplexify@3.4.2 
+│ │ │   │ │ ├─┬ end-of-stream@1.0.0 
+│ │ │   │ │ │ └─┬ once@1.3.3 
+│ │ │   │ │ │   └── wrappy@1.0.1 
+│ │ │   │ │ └─┬ readable-stream@2.0.4 
+│ │ │   │ │   ├── core-util-is@1.0.2 
+│ │ │   │ │   ├── inherits@2.0.1 
+│ │ │   │ │   ├── isarray@0.0.1 
+│ │ │   │ │   ├── process-nextick-args@1.0.6 
+│ │ │   │ │   ├── string_decoder@0.10.31 
+│ │ │   │ │   └── util-deprecate@1.0.2 
+│ │ │   │ ├── is-plain-obj@1.1.0 
+│ │ │   │ ├── is-redirect@1.0.0 
+│ │ │   │ ├── is-stream@1.0.1 
+│ │ │   │ ├── lowercase-keys@1.0.0 
+│ │ │   │ ├── node-status-codes@1.0.0 
+│ │ │   │ ├── object-assign@4.0.1 
+│ │ │   │ ├─┬ parse-json@2.2.0 
+│ │ │   │ │ └─┬ error-ex@1.3.0 
+│ │ │   │ │   └── is-arrayish@0.2.1 
+│ │ │   │ ├─┬ pinkie-promise@2.0.0 
+│ │ │   │ │ └── pinkie@2.0.1 
+│ │ │   │ ├─┬ read-all-stream@3.0.1 
+│ │ │   │ │ ├─┬ pinkie-promise@1.0.0 
+│ │ │   │ │ │ └── pinkie@1.0.0 
+│ │ │   │ │ └─┬ readable-stream@2.0.4 
+│ │ │   │ │   ├── core-util-is@1.0.2 
+│ │ │   │ │   ├── inherits@2.0.1 
+│ │ │   │ │   ├── isarray@0.0.1 
+│ │ │   │ │   ├── process-nextick-args@1.0.6 
+│ │ │   │ │   ├── string_decoder@0.10.31 
+│ │ │   │ │   └── util-deprecate@1.0.2 
+│ │ │   │ ├── timed-out@2.0.0 
+│ │ │   │ ├── unzip-response@1.0.0 
+│ │ │   │ └─┬ url-parse-lax@1.0.0 
+│ │ │   │   └── prepend-http@1.0.3 
+│ │ │   ├─┬ rc@1.1.5 
+│ │ │   │ ├── deep-extend@0.4.0 
+│ │ │   │ ├── ini@1.3.4 
+│ │ │   │ ├── minimist@1.2.0 
+│ │ │   │ └── strip-json-comments@1.0.4 
+│ │ │   ├── registry-url@3.0.3 
+│ │ │   └── semver@5.1.0 
+│ │ ├─┬ repeating@2.0.0 
+│ │ │ └─┬ is-finite@1.0.1 
+│ │ │   └── number-is-nan@1.0.0 
+│ │ ├─┬ semver-diff@2.1.0 
+│ │ │ └── semver@5.1.0 
+│ │ └─┬ string-length@1.0.1 
+│ │   └─┬ strip-ansi@3.0.0 
+│ │     └── ansi-regex@2.0.0 
+│ ├── user-home@1.1.1 
+│ └─┬ which@1.2.0 
+│   └─┬ is-absolute@0.1.7 
+│     └── is-relative@0.1.3 
+├─┬ browser-sync@2.10.0 
+│ ├─┬ anymatch@1.3.0 
+│ │ └─┬ micromatch@2.3.7 
+│ │   ├─┬ arr-diff@2.0.0 
+│ │   │ └── arr-flatten@1.0.1 
+│ │   ├─┬ braces@1.8.3 
+│ │   │ ├─┬ expand-range@1.8.1 
+│ │   │ │ └─┬ fill-range@2.2.3 
+│ │   │ │   ├── is-number@2.1.0 
+│ │   │ │   ├── isobject@2.0.0 
+│ │   │ │   ├── randomatic@1.1.5 
+│ │   │ │   └── repeat-string@1.5.2 
+│ │   │ ├── preserve@0.2.0 
+│ │   │ └── repeat-element@1.1.2 
+│ │   ├── expand-brackets@0.1.4 
+│ │   ├─┬ extglob@0.3.1 
+│ │   │ ├─┬ ansi-green@0.1.1 
+│ │   │ │ └── ansi-wrap@0.1.0 
+│ │   │ └── success-symbol@0.1.0 
+│ │   ├── filename-regex@2.0.0 
+│ │   ├── is-extglob@1.0.0 
+│ │   ├─┬ kind-of@3.0.2 
+│ │   │ └── is-buffer@1.1.0 
+│ │   ├── normalize-path@2.0.1 
+│ │   ├─┬ object.omit@2.0.0 
+│ │   │ ├─┬ for-own@0.1.3 
+│ │   │ │ └── for-in@0.1.4 
+│ │   │ └── is-extendable@0.1.1 
+│ │   ├─┬ parse-glob@3.0.4 
+│ │   │ ├── glob-base@0.3.0 
+│ │   │ └── is-dotfile@1.0.2 
+│ │   └─┬ regex-cache@0.4.2 
+│ │     ├── is-equal-shallow@0.1.3 
+│ │     └── is-primitive@2.0.0 
+│ ├── async-each-series@0.1.1 
+│ ├─┬ browser-sync-client@2.4.1 
+│ │ ├── etag@1.7.0 
+│ │ └── fresh@0.3.0 
+│ ├─┬ browser-sync-ui@0.5.16 
+│ │ ├── connect-history-api-fallback@0.0.5 
+│ │ ├─┬ stream-throttle@0.1.3 
+│ │ │ ├── commander@2.9.0 
+│ │ │ └── limiter@1.1.0 
+│ │ └─┬ weinre@2.0.0-pre-I0Z7U9OV 
+│ │   ├─┬ express@2.5.11 
+│ │   │ ├─┬ connect@1.9.2 
+│ │   │ │ └── formidable@1.0.17 
+│ │   │ ├── mime@1.2.4 
+│ │   │ ├── mkdirp@0.3.0 
+│ │   │ └── qs@0.4.2 
+│ │   └── underscore@1.7.0 
+│ ├── bs-recipes@1.0.5 
+│ ├─┬ chokidar@1.4.1 
+│ │ ├── async-each@0.1.6 
+│ │ ├─┬ fsevents@1.0.6 
+│ │ │ └─┬ node-pre-gyp@0.6.17 
+│ │ │   ├─┬ mkdirp@0.5.1 
+│ │ │   │ └── minimist@0.0.8 
+│ │ │   ├─┬ nopt@3.0.6 
+│ │ │   │ └── abbrev@1.0.7 
+│ │ │   ├─┬ npmlog@2.0.0 
+│ │ │   │ ├── ansi@0.3.0 
+│ │ │   │ ├─┬ are-we-there-yet@1.0.4 
+│ │ │   │ │ ├── delegates@0.1.0 
+│ │ │   │ │ └─┬ readable-stream@1.1.13 
+│ │ │   │ │   ├── core-util-is@1.0.2 
+│ │ │   │ │   ├── isarray@0.0.1 
+│ │ │   │ │   └── string_decoder@0.10.31 
+│ │ │   │ └─┬ gauge@1.2.2 
+│ │ │   │   ├── has-unicode@1.0.1 
+│ │ │   │   ├─┬ lodash.pad@3.1.1 
+│ │ │   │   │ ├── lodash._basetostring@3.0.1 
+│ │ │   │   │ └─┬ lodash._createpadding@3.6.1 
+│ │ │   │   │   └── lodash.repeat@3.0.1 
+│ │ │   │   ├── lodash.padleft@3.1.1 
+│ │ │   │   └── lodash.padright@3.1.1 
+│ │ │   ├─┬ rc@1.1.5 
+│ │ │   │ ├── deep-extend@0.4.0 
+│ │ │   │ ├── ini@1.3.4 
+│ │ │   │ ├── minimist@1.2.0 
+│ │ │   │ └── strip-json-comments@1.0.4 
+│ │ │   ├─┬ request@2.67.0 
+│ │ │   │ ├── aws-sign2@0.6.0 
+│ │ │   │ ├─┬ bl@1.0.0 
+│ │ │   │ │ └─┬ readable-stream@2.0.4 
+│ │ │   │ │   ├── core-util-is@1.0.2 
+│ │ │   │ │   ├── inherits@2.0.1 
+│ │ │   │ │   ├── isarray@0.0.1 
+│ │ │   │ │   ├── process-nextick-args@1.0.3 
+│ │ │   │ │   ├── string_decoder@0.10.31 
+│ │ │   │ │   └── util-deprecate@1.0.2 
+│ │ │   │ ├── caseless@0.11.0 
+│ │ │   │ ├─┬ combined-stream@1.0.5 
+│ │ │   │ │ └── delayed-stream@1.0.0 
+│ │ │   │ ├── extend@3.0.0 
+│ │ │   │ ├── forever-agent@0.6.1 
+│ │ │   │ ├─┬ form-data@1.0.0-rc3 
+│ │ │   │ │ └── async@1.5.0 
+│ │ │   │ ├─┬ har-validator@2.0.3 
+│ │ │   │ │ ├─┬ chalk@1.1.1 
+│ │ │   │ │ │ ├── ansi-styles@2.1.0 
+│ │ │   │ │ │ ├── escape-string-regexp@1.0.3 
+│ │ │   │ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │   │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │   │ │ │ ├── strip-ansi@3.0.0 
+│ │ │   │ │ │ └── supports-color@2.0.0 
+│ │ │   │ │ ├─┬ commander@2.9.0 
+│ │ │   │ │ │ └── graceful-readlink@1.0.1 
+│ │ │   │ │ ├─┬ is-my-json-valid@2.12.3 
+│ │ │   │ │ │ ├── generate-function@2.0.0 
+│ │ │   │ │ │ ├─┬ generate-object-property@1.2.0 
+│ │ │   │ │ │ │ └── is-property@1.0.2 
+│ │ │   │ │ │ ├── jsonpointer@2.0.0 
+│ │ │   │ │ │ └── xtend@4.0.1 
+│ │ │   │ │ └─┬ pinkie-promise@2.0.0 
+│ │ │   │ │   └── pinkie@2.0.1 
+│ │ │   │ ├─┬ hawk@3.1.2 
+│ │ │   │ │ ├── boom@2.10.1 
+│ │ │   │ │ ├── cryptiles@2.0.5 
+│ │ │   │ │ ├── hoek@2.16.3 
+│ │ │   │ │ └── sntp@1.0.9 
+│ │ │   │ ├─┬ http-signature@1.1.0 
+│ │ │   │ │ ├── assert-plus@0.1.5 
+│ │ │   │ │ ├─┬ jsprim@1.2.2 
+│ │ │   │ │ │ ├── extsprintf@1.0.2 
+│ │ │   │ │ │ ├── json-schema@0.2.2 
+│ │ │   │ │ │ └── verror@1.3.6 
+│ │ │   │ │ └─┬ sshpk@1.7.0 
+│ │ │   │ │   ├── asn1@0.2.3 
+│ │ │   │ │   ├── assert-plus@0.2.0 
+│ │ │   │ │   ├── dashdash@1.10.1 
+│ │ │   │ │   ├── ecc-jsbn@0.1.1 
+│ │ │   │ │   ├── jodid25519@1.0.2 
+│ │ │   │ │   ├── jsbn@0.1.0 
+│ │ │   │ │   └── tweetnacl@0.13.2 
+│ │ │   │ ├── is-typedarray@1.0.0 
+│ │ │   │ ├── isstream@0.1.2 
+│ │ │   │ ├── json-stringify-safe@5.0.1 
+│ │ │   │ ├─┬ mime-types@2.1.7 
+│ │ │   │ │ └── mime-db@1.19.0 
+│ │ │   │ ├── node-uuid@1.4.7 
+│ │ │   │ ├── oauth-sign@0.8.0 
+│ │ │   │ ├── qs@5.2.0 
+│ │ │   │ ├── stringstream@0.0.5 
+│ │ │   │ ├── tough-cookie@2.2.1 
+│ │ │   │ └── tunnel-agent@0.4.1 
+│ │ │   ├─┬ rimraf@2.4.4 
+│ │ │   │ └─┬ glob@5.0.15 
+│ │ │   │   ├─┬ inflight@1.0.4 
+│ │ │   │   │ └── wrappy@1.0.1 
+│ │ │   │   ├── inherits@2.0.1 
+│ │ │   │   ├─┬ minimatch@3.0.0 
+│ │ │   │   │ └─┬ brace-expansion@1.1.1 
+│ │ │   │   │   ├── balanced-match@0.2.1 
+│ │ │   │   │   └── concat-map@0.0.1 
+│ │ │   │   ├─┬ once@1.3.3 
+│ │ │   │   │ └── wrappy@1.0.1 
+│ │ │   │   └── path-is-absolute@1.0.0 
+│ │ │   ├── semver@5.1.0 
+│ │ │   ├─┬ tar@2.2.1 
+│ │ │   │ ├── block-stream@0.0.8 
+│ │ │   │ ├── fstream@1.0.8 
+│ │ │   │ └── inherits@2.0.1 
+│ │ │   └─┬ tar-pack@3.1.0 
+│ │ │     ├── debug@0.7.4 
+│ │ │     ├─┬ fstream-ignore@1.0.3 
+│ │ │     │ └─┬ minimatch@3.0.0 
+│ │ │     │   └─┬ brace-expansion@1.1.1 
+│ │ │     │     ├── balanced-match@0.2.1 
+│ │ │     │     └── concat-map@0.0.1 
+│ │ │     ├── graceful-fs@4.1.2 
+│ │ │     ├── once@1.1.1 
+│ │ │     ├─┬ readable-stream@1.0.33 
+│ │ │     │ ├── core-util-is@1.0.2 
+│ │ │     │ ├── inherits@2.0.1 
+│ │ │     │ ├── isarray@0.0.1 
+│ │ │     │ └── string_decoder@0.10.31 
+│ │ │     ├── rimraf@2.2.8 
+│ │ │     └── uid-number@0.0.3 
+│ │ ├── glob-parent@2.0.0 
+│ │ ├── inherits@2.0.1 
+│ │ ├─┬ is-binary-path@1.0.1 
+│ │ │ └── binary-extensions@1.4.0 
+│ │ ├── is-glob@2.0.1 
+│ │ ├── path-is-absolute@1.0.0 
+│ │ └── readdirp@2.0.0 
+│ ├─┬ connect@3.4.0 
+│ │ ├─┬ finalhandler@0.4.0 
+│ │ │ └── unpipe@1.0.0 
+│ │ ├── parseurl@1.3.0 
+│ │ └── utils-merge@1.0.0 
+│ ├── dev-ip@1.0.1 
+│ ├── easy-extender@2.3.2 
+│ ├─┬ eazy-logger@2.1.2 
+│ │ ├── opt-merger@1.1.1 
+│ │ └─┬ tfunk@3.0.1 
+│ │   └── object-path@0.9.2 
+│ ├── emitter-steward@1.0.0 
+│ ├─┬ foxy@11.1.4 
+│ │ ├─┬ lodash.merge@3.3.2 
+│ │ │ ├── lodash._arraycopy@3.0.0 
+│ │ │ ├── lodash._arrayeach@3.0.0 
+│ │ │ ├─┬ lodash._createassigner@3.1.1 
+│ │ │ │ ├── lodash._isiterateecall@3.0.9 
+│ │ │ │ └── lodash.restparam@3.6.1 
+│ │ │ ├── lodash._getnative@3.9.1 
+│ │ │ ├── lodash.isarguments@3.0.4 
+│ │ │ ├── lodash.isarray@3.0.4 
+│ │ │ ├── lodash.isplainobject@3.2.0 
+│ │ │ ├── lodash.istypedarray@3.0.2 
+│ │ │ ├── lodash.keys@3.1.2 
+│ │ │ ├── lodash.keysin@3.0.8 
+│ │ │ └─┬ lodash.toplainobject@3.0.0 
+│ │ │   └── lodash._basecopy@3.0.1 
+│ │ └── resp-modifier@4.0.4 
+│ ├─┬ fs-extra@0.26.3 
+│ │ ├── jsonfile@2.2.3 
+│ │ └── klaw@1.1.3 
+│ ├── immutable@3.7.6 
+│ ├─┬ localtunnel@1.8.0 
+│ │ ├── openurl@1.1.0 
+│ │ ├─┬ request@2.65.0 
+│ │ │ ├── aws-sign2@0.6.0 
+│ │ │ ├── bl@1.0.0 
+│ │ │ ├── caseless@0.11.0 
+│ │ │ ├─┬ combined-stream@1.0.5 
+│ │ │ │ └── delayed-stream@1.0.0 
+│ │ │ ├── forever-agent@0.6.1 
+│ │ │ ├── form-data@1.0.0-rc3 
+│ │ │ ├─┬ har-validator@2.0.3 
+│ │ │ │ ├─┬ chalk@1.1.1 
+│ │ │ │ │ ├── ansi-styles@2.1.0 
+│ │ │ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ │ ├── strip-ansi@3.0.0 
+│ │ │ │ │ └── supports-color@2.0.0 
+│ │ │ │ └─┬ is-my-json-valid@2.12.3 
+│ │ │ │   ├── generate-function@2.0.0 
+│ │ │ │   ├─┬ generate-object-property@1.2.0 
+│ │ │ │   │ └── is-property@1.0.2 
+│ │ │ │   └── jsonpointer@2.0.0 
+│ │ │ ├─┬ hawk@3.1.2 
+│ │ │ │ ├── boom@2.10.1 
+│ │ │ │ ├── cryptiles@2.0.5 
+│ │ │ │ ├── hoek@2.16.3 
+│ │ │ │ └── sntp@1.0.9 
+│ │ │ ├── http-signature@0.11.0 
+│ │ │ ├── isstream@0.1.2 
+│ │ │ ├── oauth-sign@0.8.0 
+│ │ │ └── qs@5.2.0 
+│ │ └─┬ yargs@3.29.0 
+│ │   ├── camelcase@1.2.1 
+│ │   ├─┬ cliui@3.1.0 
+│ │   │ ├─┬ strip-ansi@3.0.0 
+│ │   │ │ └── ansi-regex@2.0.0 
+│ │   │ └── wrap-ansi@1.0.0 
+│ │   ├─┬ os-locale@1.4.0 
+│ │   │ └─┬ lcid@1.0.0 
+│ │   │   └── invert-kv@1.0.0 
+│ │   ├── window-size@0.1.4 
+│ │   └── y18n@3.2.0 
+│ ├── longest@1.0.1 
+│ ├─┬ meow@3.3.0 
+│ │ ├─┬ camelcase-keys@1.0.0 
+│ │ │ └── map-obj@1.0.1 
+│ │ ├── indent-string@1.2.2 
+│ │ └── object-assign@3.0.0 
+│ ├─┬ opn@3.0.3 
+│ │ └── object-assign@4.0.1 
+│ ├─┬ portscanner@1.0.0 
+│ │ └── async@0.1.15 
+│ ├─┬ query-string@2.4.2 
+│ │ └── strict-uri-encode@1.0.2 
+│ ├─┬ resp-modifier@5.0.2 
+│ │ └── minimatch@2.0.10 
+│ ├─┬ serve-index@1.7.2 
+│ │ ├─┬ accepts@1.2.13 
+│ │ │ └── negotiator@0.5.3 
+│ │ ├── batch@0.5.2 
+│ │ ├── escape-html@1.0.2 
+│ │ ├─┬ http-errors@1.3.1 
+│ │ │ └── statuses@1.2.1 
+│ │ └─┬ mime-types@2.1.8 
+│ │   └── mime-db@1.20.0 
+│ ├─┬ serve-static@1.10.0 
+│ │ └─┬ send@0.13.0 
+│ │   ├── depd@1.0.1 
+│ │   ├── destroy@1.0.3 
+│ │   ├── mime@1.3.4 
+│ │   └── range-parser@1.0.3 
+│ ├─┬ socket.io@1.3.7 
+│ │ ├─┬ debug@2.1.0 
+│ │ │ └── ms@0.6.2 
+│ │ ├─┬ engine.io@1.5.4 
+│ │ │ ├── base64id@0.1.0 
+│ │ │ ├─┬ debug@1.0.3 
+│ │ │ │ └── ms@0.6.2 
+│ │ │ ├─┬ engine.io-parser@1.2.2 
+│ │ │ │ ├── after@0.8.1 
+│ │ │ │ ├── arraybuffer.slice@0.0.6 
+│ │ │ │ ├── base64-arraybuffer@0.1.2 
+│ │ │ │ ├── blob@0.0.4 
+│ │ │ │ └── utf8@2.1.0 
+│ │ │ └─┬ ws@0.8.0 
+│ │ │   ├─┬ bufferutil@1.2.1 
+│ │ │   │ └── bindings@1.2.1 
+│ │ │   ├── options@0.0.6 
+│ │ │   ├── ultron@1.0.2 
+│ │ │   └── utf-8-validate@1.2.1 
+│ │ ├─┬ has-binary-data@0.1.3 
+│ │ │ └── isarray@0.0.1 
+│ │ ├─┬ socket.io-adapter@0.3.1 
+│ │ │ ├─┬ debug@1.0.2 
+│ │ │ │ └── ms@0.6.2 
+│ │ │ ├── object-keys@1.0.1 
+│ │ │ └─┬ socket.io-parser@2.2.2 
+│ │ │   └── debug@0.7.4 
+│ │ ├─┬ socket.io-client@1.3.7 
+│ │ │ ├── backo2@1.0.2 
+│ │ │ ├── component-bind@1.0.0 
+│ │ │ ├── component-emitter@1.1.2 
+│ │ │ ├── debug@0.7.4 
+│ │ │ ├─┬ engine.io-client@1.5.4 
+│ │ │ │ ├── component-inherit@0.0.3 
+│ │ │ │ ├─┬ debug@1.0.4 
+│ │ │ │ │ └── ms@0.6.2 
+│ │ │ │ ├─┬ has-cors@1.0.3 
+│ │ │ │ │ └── global@2.0.1 
+│ │ │ │ ├── parsejson@0.0.1 
+│ │ │ │ ├── parseqs@0.0.2 
+│ │ │ │ ├── parseuri@0.0.4 
+│ │ │ │ └── xmlhttprequest@1.5.0 
+│ │ │ ├── has-binary@0.1.6 
+│ │ │ ├── indexof@0.0.1 
+│ │ │ ├── object-component@0.0.3 
+│ │ │ ├─┬ parseuri@0.0.2 
+│ │ │ │ └─┬ better-assert@1.0.2 
+│ │ │ │   └── callsite@1.0.0 
+│ │ │ └── to-array@0.1.3 
+│ │ └─┬ socket.io-parser@2.2.4 
+│ │   ├── benchmark@1.0.0 
+│ │   ├── debug@0.7.4 
+│ │   └── json3@3.2.6 
+│ ├── ua-parser-js@0.7.10 
+│ └── ucfirst@1.0.0 
+├─┬ event-stream@3.3.2 
+│ ├── duplexer@0.1.1 
+│ ├── from@0.1.3 
+│ ├── map-stream@0.1.0 
+│ ├── pause-stream@0.0.11 
+│ ├── split@0.3.3 
+│ ├── stream-combiner@0.0.4 
+│ └── through@2.3.8 
+├─┬ generator-jhipster@2.26.1 
+│ ├─┬ chalk@1.0.0 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├── escape-string-regexp@1.0.4 
+│ │ ├─┬ has-ansi@1.0.3 
+│ │ │ └── ansi-regex@1.1.1 
+│ │ ├── strip-ansi@2.0.1 
+│ │ └── supports-color@1.3.1 
+│ ├─┬ cheerio@0.19.0 
+│ │ ├─┬ css-select@1.0.0 
+│ │ │ ├── boolbase@1.0.0 
+│ │ │ ├── css-what@1.0.0 
+│ │ │ ├── domutils@1.4.3 
+│ │ │ └── nth-check@1.0.1 
+│ │ ├─┬ dom-serializer@0.1.0 
+│ │ │ └── domelementtype@1.1.3 
+│ │ ├── entities@1.1.1 
+│ │ └─┬ htmlparser2@3.8.3 
+│ │   ├── domelementtype@1.3.0 
+│ │   ├── domhandler@2.3.0 
+│ │   ├── domutils@1.5.1 
+│ │   ├── entities@1.0.0 
+│ │   └── readable-stream@1.1.13 
+│ ├── ejs@2.3.4 
+│ ├── html-wiring@1.1.0 
+│ ├─┬ insight@0.6.0 
+│ │ ├── async@0.9.2 
+│ │ ├─┬ chalk@1.1.1 
+│ │ │ ├── ansi-styles@2.1.0 
+│ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ ├── strip-ansi@3.0.0 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├─┬ inquirer@0.8.5 
+│ │ │ ├── ansi-regex@1.1.1 
+│ │ │ ├─┬ chalk@1.1.1 
+│ │ │ │ ├── ansi-styles@2.1.0 
+│ │ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ ├─┬ strip-ansi@3.0.0 
+│ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ └── supports-color@2.0.0 
+│ │ │ └── rx@2.5.3 
+│ │ ├── lodash.debounce@3.1.1 
+│ │ ├── object-assign@2.1.1 
+│ │ ├─┬ os-name@1.0.3 
+│ │ │ ├── osx-release@1.1.0 
+│ │ │ └── win-release@1.1.1 
+│ │ └── tough-cookie@1.2.0 
+│ ├── lodash@3.10.0 
+│ ├─┬ mkdirp@0.5.1 
+│ │ └── minimist@0.0.8 
+│ ├── shelljs@0.5.0 
+│ ├── underscore.string@3.2.0 
+│ ├── wordwrap@1.0.0 
+│ ├─┬ yeoman-generator@0.20.3 
+│ │ ├─┬ chalk@1.1.1 
+│ │ │ ├── ansi-styles@2.1.0 
+│ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ ├── strip-ansi@3.0.0 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├─┬ class-extend@0.1.2 
+│ │ │ └── object-assign@2.1.1 
+│ │ ├─┬ cli-table@0.3.1 
+│ │ │ └── colors@1.0.3 
+│ │ ├── cross-spawn@2.1.0 
+│ │ ├── dargs@4.0.1 
+│ │ ├── detect-conflict@1.0.0 
+│ │ ├── diff@2.2.1 
+│ │ ├─┬ download@4.4.3 
+│ │ │ ├─┬ caw@1.2.0 
+│ │ │ │ ├─┬ get-proxy@1.0.1 
+│ │ │ │ │ └─┬ rc@0.5.5 
+│ │ │ │ │   ├── deep-extend@0.2.11 
+│ │ │ │ │   ├── minimist@0.0.10 
+│ │ │ │ │   └── strip-json-comments@0.1.3 
+│ │ │ │ └── is-obj@1.0.0 
+│ │ │ ├─┬ filenamify@1.2.0 
+│ │ │ │ ├── filename-reserved-regex@1.0.0 
+│ │ │ │ ├── strip-outer@1.0.0 
+│ │ │ │ └── trim-repeated@1.0.0 
+│ │ │ ├─┬ gulp-decompress@1.2.0 
+│ │ │ │ ├── archive-type@3.1.0 
+│ │ │ │ ├─┬ decompress@3.0.0 
+│ │ │ │ │ ├─┬ decompress-tar@3.1.0 
+│ │ │ │ │ │ ├── is-tar@1.0.0 
+│ │ │ │ │ │ ├── object-assign@2.1.1 
+│ │ │ │ │ │ ├─┬ strip-dirs@1.1.1 
+│ │ │ │ │ │ │ ├─┬ chalk@1.1.1 
+│ │ │ │ │ │ │ │ ├── ansi-styles@2.1.0 
+│ │ │ │ │ │ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ │ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ │ │ │ │ ├── strip-ansi@3.0.0 
+│ │ │ │ │ │ │ │ └── supports-color@2.0.0 
+│ │ │ │ │ │ │ ├── is-natural-number@2.0.0 
+│ │ │ │ │ │ │ └─┬ sum-up@1.0.2 
+│ │ │ │ │ │ │   └─┬ chalk@1.1.1 
+│ │ │ │ │ │ │     ├── ansi-styles@2.1.0 
+│ │ │ │ │ │ │     ├─┬ has-ansi@2.0.0 
+│ │ │ │ │ │ │     │ └── ansi-regex@2.0.0 
+│ │ │ │ │ │ │     ├── strip-ansi@3.0.0 
+│ │ │ │ │ │ │     └── supports-color@2.0.0 
+│ │ │ │ │ │ ├── tar-stream@1.3.1 
+│ │ │ │ │ │ ├─┬ through2@0.6.5 
+│ │ │ │ │ │ │ └── readable-stream@1.0.33 
+│ │ │ │ │ │ └─┬ vinyl@0.4.6 
+│ │ │ │ │ │   └── clone@0.2.0 
+│ │ │ │ │ ├─┬ decompress-tarbz2@3.1.0 
+│ │ │ │ │ │ ├── is-bzip2@1.0.0 
+│ │ │ │ │ │ ├── object-assign@2.1.1 
+│ │ │ │ │ │ ├─┬ seek-bzip@1.0.5 
+│ │ │ │ │ │ │ └── commander@2.8.1 
+│ │ │ │ │ │ ├─┬ through2@0.6.5 
+│ │ │ │ │ │ │ └── readable-stream@1.0.33 
+│ │ │ │ │ │ └─┬ vinyl@0.4.6 
+│ │ │ │ │ │   └── clone@0.2.0 
+│ │ │ │ │ ├─┬ decompress-targz@3.1.0 
+│ │ │ │ │ │ ├── is-gzip@1.0.0 
+│ │ │ │ │ │ ├── object-assign@2.1.1 
+│ │ │ │ │ │ ├─┬ through2@0.6.5 
+│ │ │ │ │ │ │ └── readable-stream@1.0.33 
+│ │ │ │ │ │ └─┬ vinyl@0.4.6 
+│ │ │ │ │ │   └── clone@0.2.0 
+│ │ │ │ │ ├─┬ decompress-unzip@3.4.0 
+│ │ │ │ │ │ ├── is-zip@1.0.0 
+│ │ │ │ │ │ ├── stat-mode@0.2.1 
+│ │ │ │ │ │ └─┬ yauzl@2.3.1 
+│ │ │ │ │ │   ├── fd-slicer@1.0.1 
+│ │ │ │ │ │   └── pend@1.2.0 
+│ │ │ │ │ └─┬ vinyl-assign@1.2.1 
+│ │ │ │ │   └── object-assign@4.0.1 
+│ │ │ │ └─┬ gulp-util@3.0.7 
+│ │ │ │   ├── beeper@1.1.0 
+│ │ │ │   ├─┬ chalk@1.1.1 
+│ │ │ │   │ ├── ansi-styles@2.1.0 
+│ │ │ │   │ ├─┬ has-ansi@2.0.0 
+│ │ │ │   │ │ └── ansi-regex@2.0.0 
+│ │ │ │   │ ├── strip-ansi@3.0.0 
+│ │ │ │   │ └── supports-color@2.0.0 
+│ │ │ │   ├─┬ fancy-log@1.1.0 
+│ │ │ │   │ └─┬ chalk@1.1.1 
+│ │ │ │   │   ├── ansi-styles@2.1.0 
+│ │ │ │   │   ├─┬ has-ansi@2.0.0 
+│ │ │ │   │   │ └── ansi-regex@2.0.0 
+│ │ │ │   │   ├── strip-ansi@3.0.0 
+│ │ │ │   │   └── supports-color@2.0.0 
+│ │ │ │   ├─┬ gulplog@1.0.0 
+│ │ │ │   │ └── glogg@1.0.0 
+│ │ │ │   ├─┬ has-gulplog@0.1.0 
+│ │ │ │   │ └── sparkles@1.0.0 
+│ │ │ │   ├── lodash._reescape@3.0.0 
+│ │ │ │   ├── lodash._reevaluate@3.0.0 
+│ │ │ │   ├── lodash._reinterpolate@3.0.0 
+│ │ │ │   ├─┬ lodash.template@3.6.2 
+│ │ │ │   │ ├── lodash._basetostring@3.0.1 
+│ │ │ │   │ ├── lodash._basevalues@3.0.0 
+│ │ │ │   │ ├── lodash.escape@3.0.0 
+│ │ │ │   │ └── lodash.templatesettings@3.1.0 
+│ │ │ │   ├─┬ multipipe@0.1.2 
+│ │ │ │   │ └─┬ duplexer2@0.0.2 
+│ │ │ │   │   └── readable-stream@1.1.13 
+│ │ │ │   └── vinyl@0.5.3 
+│ │ │ ├── is-url@1.2.1 
+│ │ │ ├── object-assign@4.0.1 
+│ │ │ ├─┬ vinyl@1.1.0 
+│ │ │ │ ├── clone@1.0.2 
+│ │ │ │ ├── clone-stats@0.0.1 
+│ │ │ │ └── replace-ext@0.0.1 
+│ │ │ └─┬ ware@1.3.0 
+│ │ │   └─┬ wrap-fn@0.1.4 
+│ │ │     └── co@3.1.0 
+│ │ ├─┬ findup-sync@0.2.1 
+│ │ │ └── glob@4.3.5 
+│ │ ├─┬ github-username@2.1.0 
+│ │ │ ├─┬ gh-got@2.4.0 
+│ │ │ │ └── object-assign@4.0.1 
+│ │ │ └─┬ meow@3.6.0 
+│ │ │   ├─┬ camelcase-keys@2.0.0 
+│ │ │   │ └── camelcase@2.0.1 
+│ │ │   ├─┬ loud-rejection@1.2.0 
+│ │ │   │ └── signal-exit@2.1.2 
+│ │ │   ├── object-assign@4.0.1 
+│ │ │   ├─┬ redent@1.0.0 
+│ │ │   │ ├─┬ indent-string@2.1.0 
+│ │ │   │ │ └── repeating@2.0.0 
+│ │ │   │ └── strip-indent@1.0.1 
+│ │ │   └── trim-newlines@1.0.0 
+│ │ ├── glob@5.0.15 
+│ │ ├─┬ gruntfile-editor@1.1.0 
+│ │ │ └─┬ ast-query@1.1.0 
+│ │ │   └── traverse@0.6.6 
+│ │ ├─┬ istextorbinary@1.0.2 
+│ │ │ ├── binaryextensions@1.0.0 
+│ │ │ └── textextensions@1.0.1 
+│ │ ├─┬ mem-fs-editor@2.1.0 
+│ │ │ ├── commondir@1.0.1 
+│ │ │ ├── deep-extend@0.4.0 
+│ │ │ └─┬ mkdirp@0.5.1 
+│ │ │   └── minimist@0.0.8 
+│ │ ├── mime@1.3.4 
+│ │ ├─┬ mkdirp@0.5.1 
+│ │ │ └── minimist@0.0.8 
+│ │ ├── nopt@3.0.6 
+│ │ ├── read-chunk@1.0.1 
+│ │ ├── run-async@0.1.0 
+│ │ ├─┬ sinon@1.17.2 
+│ │ │ ├── formatio@1.1.1 
+│ │ │ ├── lolex@1.3.2 
+│ │ │ ├── samsam@1.1.2 
+│ │ │ └── util@0.10.3 
+│ │ ├── through2@2.0.0 
+│ │ ├── xdg-basedir@2.0.0 
+│ │ ├── yeoman-assert@2.1.1 
+│ │ └─┬ yeoman-welcome@1.0.1 
+│ │   └─┬ chalk@1.1.1 
+│ │     ├── ansi-styles@2.1.0 
+│ │     ├─┬ has-ansi@2.0.0 
+│ │     │ └── ansi-regex@2.0.0 
+│ │     ├── strip-ansi@3.0.0 
+│ │     └── supports-color@2.0.0 
+│ └─┬ yo@1.4.8 
+│   ├── array-uniq@1.0.2 
+│   ├─┬ cross-spawn@0.4.1 
+│   │ ├── lru-cache@2.7.3 
+│   │ └─┬ spawn-sync@1.0.13 
+│   │   └── os-shim@0.1.3 
+│   ├─┬ findup@0.1.5 
+│   │ ├── colors@0.6.2 
+│   │ └── commander@2.1.0 
+│   ├── fullname@1.1.1 
+│   ├─┬ got@4.2.0 
+│   │ ├─┬ pinkie-promise@1.0.0 
+│   │ │ └── pinkie@1.0.0 
+│   │ └── prepend-http@1.0.3 
+│   ├─┬ inquirer@0.9.0 
+│   │ ├── ansi-regex@2.0.0 
+│   │ ├─┬ readline2@0.1.1 
+│   │ │ ├── mute-stream@0.0.4 
+│   │ │ └─┬ strip-ansi@2.0.1 
+│   │ │   └── ansi-regex@1.1.1 
+│   │ ├── rx-lite@2.5.2 
+│   │ └── strip-ansi@3.0.0 
+│   ├─┬ npm-keyword@1.2.0 
+│   │ └─┬ got@3.3.1 
+│   │   ├── infinity-agent@2.0.3 
+│   │   └── nested-error-stacks@1.0.2 
+│   ├─┬ package-json@1.2.0 
+│   │ └── got@3.3.1 
+│   ├── repeating@1.1.3 
+│   └─┬ yeoman-doctor@1.4.0 
+│     ├─┬ chalk@1.1.1 
+│     │ ├── ansi-styles@2.1.0 
+│     │ ├─┬ has-ansi@2.0.0 
+│     │ │ └── ansi-regex@2.0.0 
+│     │ ├── strip-ansi@3.0.0 
+│     │ └── supports-color@2.0.0 
+│     ├── semver@4.3.6 
+│     └── user-home@1.1.1 
+├─┬ grunt@0.4.5 
+│ ├── async@0.1.22 
+│ ├── coffee-script@1.3.3 
+│ ├── colors@0.6.2 
+│ ├── dateformat@1.0.2-1.2.3 
+│ ├── eventemitter2@0.4.14 
+│ ├── exit@0.1.2 
+│ ├─┬ findup-sync@0.1.3 
+│ │ ├─┬ glob@3.2.11 
+│ │ │ └── minimatch@0.3.0 
+│ │ └── lodash@2.4.2 
+│ ├── getobject@0.1.0 
+│ ├─┬ glob@3.1.21 
+│ │ ├── graceful-fs@1.2.3 
+│ │ └── inherits@1.0.2 
+│ ├─┬ grunt-legacy-log@0.1.3 
+│ │ ├── colors@0.6.2 
+│ │ ├─┬ grunt-legacy-log-utils@0.1.1 
+│ │ │ ├── colors@0.6.2 
+│ │ │ ├── lodash@2.4.2 
+│ │ │ └── underscore.string@2.3.3 
+│ │ ├── lodash@2.4.2 
+│ │ └── underscore.string@2.3.3 
+│ ├─┬ grunt-legacy-util@0.2.0 
+│ │ ├── async@0.1.22 
+│ │ ├── lodash@0.9.2 
+│ │ ├── underscore.string@2.2.1 
+│ │ └── which@1.0.9 
+│ ├── hooker@0.2.3 
+│ ├── iconv-lite@0.2.11 
+│ ├─┬ js-yaml@2.0.5 
+│ │ ├─┬ argparse@0.1.16 
+│ │ │ └── underscore.string@2.4.0 
+│ │ └── esprima@1.0.4 
+│ ├── lodash@0.9.2 
+│ ├─┬ minimatch@0.2.14 
+│ │ ├── lru-cache@2.7.3 
+│ │ └── sigmund@1.0.1 
+│ ├─┬ nopt@1.0.10 
+│ │ └── abbrev@1.0.7 
+│ ├── rimraf@2.2.8 
+│ ├── underscore.string@2.2.1 
+│ └── which@1.0.9 
+├─┬ grunt-angular-templates@0.5.7 
+│ └─┬ html-minifier@0.6.9 
+│   ├─┬ change-case@2.1.6 
+│   │ ├── camel-case@1.2.2 
+│   │ ├── constant-case@1.1.2 
+│   │ ├── dot-case@1.1.2 
+│   │ ├── is-lower-case@1.1.3 
+│   │ ├── is-upper-case@1.1.2 
+│   │ ├── lower-case@1.1.3 
+│   │ ├── param-case@1.1.2 
+│   │ ├── pascal-case@1.1.2 
+│   │ ├── path-case@1.1.2 
+│   │ ├── sentence-case@1.1.3 
+│   │ ├── snake-case@1.1.2 
+│   │ ├── swap-case@1.1.2 
+│   │ ├── title-case@1.1.2 
+│   │ ├── upper-case@1.1.3 
+│   │ └── upper-case-first@1.1.2 
+│   ├─┬ clean-css@2.2.23 
+│   │ └── commander@2.2.0 
+│   ├─┬ cli@0.6.6 
+│   │ └─┬ glob@3.2.11 
+│   │   └─┬ minimatch@0.3.0 
+│   │     └── lru-cache@2.7.3 
+│   ├── relateurl@0.2.6 
+│   └─┬ uglify-js@2.4.24 
+│     ├── async@0.2.10 
+│     ├── source-map@0.1.34 
+│     └─┬ yargs@3.5.4 
+│       ├── window-size@0.1.0 
+│       └── wordwrap@0.0.2 
+├─┬ grunt-autoprefixer@3.0.3 
+│ ├─┬ autoprefixer-core@5.2.1 
+│ │ ├── browserslist@0.4.0 
+│ │ ├── caniuse-db@1.0.30000382 
+│ │ └── num2fraction@1.2.2 
+│ ├─┬ chalk@1.0.0 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@1.0.3 
+│ │ │ └── ansi-regex@1.1.1 
+│ │ ├── strip-ansi@2.0.1 
+│ │ └── supports-color@1.3.1 
+│ ├── diff@1.3.2 
+│ └─┬ postcss@4.1.16 
+│   ├── es6-promise@2.3.0 
+│   ├── js-base64@2.1.9 
+│   └── source-map@0.4.4 
+├── grunt-browser-sync@2.2.0 
+├─┬ grunt-build-control@0.6.1 
+│ ├── semver@4.3.6 
+│ └── shelljs@0.2.6 
+├─┬ grunt-contrib-clean@0.7.0 
+│ └─┬ rimraf@2.5.0 
+│   └── glob@6.0.2 
+├─┬ grunt-contrib-concat@0.5.1 
+│ ├─┬ chalk@0.5.1 
+│ │ ├── ansi-styles@1.1.0 
+│ │ ├─┬ has-ansi@0.1.0 
+│ │ │ └── ansi-regex@0.2.1 
+│ │ ├── strip-ansi@0.3.0 
+│ │ └── supports-color@0.2.0 
+│ └─┬ source-map@0.3.0 
+│   └── amdefine@1.0.0 
+├─┬ grunt-contrib-copy@0.8.2 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ └── file-sync-cmp@0.1.1 
+├─┬ grunt-contrib-cssmin@0.14.0 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ clean-css@3.4.8 
+│ │ ├─┬ commander@2.8.1 
+│ │ │ └── graceful-readlink@1.0.1 
+│ │ └── source-map@0.4.4 
+│ └─┬ maxmin@1.1.0 
+│   ├─┬ chalk@1.1.1 
+│   │ ├── ansi-styles@2.1.0 
+│   │ ├─┬ has-ansi@2.0.0 
+│   │ │ └── ansi-regex@2.0.0 
+│   │ ├── strip-ansi@3.0.0 
+│   │ └── supports-color@2.0.0 
+│   ├─┬ gzip-size@1.0.0 
+│   │ └─┬ browserify-zlib@0.1.4 
+│   │   └── pako@0.2.8 
+│   └── pretty-bytes@1.0.4 
+├─┬ grunt-contrib-htmlmin@0.6.0 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ html-minifier@1.0.1 
+│ │ ├─┬ change-case@2.3.1 
+│ │ │ └── lower-case-first@1.0.2 
+│ │ ├─┬ clean-css@3.4.8 
+│ │ │ ├── commander@2.8.1 
+│ │ │ └── source-map@0.4.4 
+│ │ ├─┬ cli@0.11.1 
+│ │ │ └── glob@5.0.15 
+│ │ ├─┬ concat-stream@1.5.1 
+│ │ │ └── typedarray@0.0.6 
+│ │ └─┬ uglify-js@2.6.1 
+│ │   ├── async@0.2.10 
+│ │   ├── source-map@0.5.3 
+│ │   └─┬ yargs@3.10.0 
+│ │     ├─┬ cliui@2.1.0 
+│ │     │ ├─┬ center-align@0.1.2 
+│ │     │ │ ├─┬ align-text@0.1.3 
+│ │     │ │ │ └── kind-of@2.0.1 
+│ │     │ │ └── lazy-cache@0.2.7 
+│ │     │ ├── right-align@0.1.3 
+│ │     │ └── wordwrap@0.0.2 
+│ │     └── window-size@0.1.0 
+│ └─┬ pretty-bytes@2.0.1 
+│   └── get-stdin@4.0.1 
+├─┬ grunt-contrib-imagemin@1.0.0 
+│ ├── async@0.9.2 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├── gulp-rename@1.2.2 
+│ ├─┬ imagemin@4.0.0 
+│ │ ├─┬ buffer-to-vinyl@1.1.0 
+│ │ │ └── file-type@3.3.1 
+│ │ ├─┬ imagemin-gifsicle@4.2.0 
+│ │ │ ├─┬ gifsicle@3.0.3 
+│ │ │ │ ├─┬ bin-build@2.2.0 
+│ │ │ │ │ ├─┬ exec-series@1.0.2 
+│ │ │ │ │ │ └── async-each-series@1.1.0 
+│ │ │ │ │ └─┬ url-regex@3.1.0 
+│ │ │ │ │   └── ip-regex@1.0.3 
+│ │ │ │ ├─┬ bin-wrapper@3.0.2 
+│ │ │ │ │ ├─┬ bin-check@2.0.0 
+│ │ │ │ │ │ └── executable@1.1.0 
+│ │ │ │ │ ├── lazy-req@1.1.0 
+│ │ │ │ │ └── os-filter-obj@1.0.3 
+│ │ │ │ └─┬ logalot@2.1.0 
+│ │ │ │   └─┬ squeak@1.3.0 
+│ │ │ │     ├─┬ chalk@1.1.1 
+│ │ │ │     │ ├── ansi-styles@2.1.0 
+│ │ │ │     │ ├─┬ has-ansi@2.0.0 
+│ │ │ │     │ │ └── ansi-regex@2.0.0 
+│ │ │ │     │ ├── strip-ansi@3.0.0 
+│ │ │ │     │ └── supports-color@2.0.0 
+│ │ │ │     ├── console-stream@0.1.1 
+│ │ │ │     └─┬ lpad-align@1.1.0 
+│ │ │ │       └── lpad@2.0.1 
+│ │ │ ├── is-gif@1.0.0 
+│ │ │ └─┬ through2@0.6.5 
+│ │ │   └── readable-stream@1.0.33 
+│ │ ├─┬ imagemin-jpegtran@4.3.2 
+│ │ │ ├── is-jpg@1.0.0 
+│ │ │ └── jpegtran-bin@3.0.6 
+│ │ ├─┬ imagemin-optipng@4.3.0 
+│ │ │ ├─┬ exec-buffer@2.0.1 
+│ │ │ │ └── tempfile@1.1.1 
+│ │ │ ├── is-png@1.0.0 
+│ │ │ ├── optipng-bin@3.0.4 
+│ │ │ └─┬ through2@0.6.5 
+│ │ │   └── readable-stream@1.0.33 
+│ │ ├─┬ imagemin-svgo@4.2.0 
+│ │ │ └── is-svg@1.1.1 
+│ │ ├── optional@0.1.3 
+│ │ ├─┬ readable-stream@2.0.5 
+│ │ │ ├── core-util-is@1.0.2 
+│ │ │ ├── process-nextick-args@1.0.6 
+│ │ │ ├── string_decoder@0.10.31 
+│ │ │ └── util-deprecate@1.0.2 
+│ │ ├─┬ stream-combiner2@1.1.1 
+│ │ │ └── duplexer2@0.1.4 
+│ │ └─┬ vinyl-fs@2.2.1 
+│ │   ├─┬ glob-stream@5.3.1 
+│ │   │ ├── glob@5.0.15 
+│ │   │ ├── ordered-read-streams@0.3.0 
+│ │   │ ├─┬ through2@0.6.5 
+│ │   │ │ └── readable-stream@1.0.33 
+│ │   │ ├─┬ to-absolute-glob@0.1.1 
+│ │   │ │ └── extend-shallow@2.0.1 
+│ │   │ └── unique-stream@2.2.0 
+│ │   ├── gulp-sourcemaps@1.6.0 
+│ │   ├── is-valid-glob@0.3.0 
+│ │   ├── merge-stream@1.0.0 
+│ │   ├─┬ mkdirp@0.5.1 
+│ │   │ └── minimist@0.0.8 
+│ │   ├── object-assign@4.0.1 
+│ │   ├─┬ strip-bom@2.0.0 
+│ │   │ └── is-utf8@0.2.1 
+│ │   ├─┬ strip-bom-stream@1.0.0 
+│ │   │ └── first-chunk-stream@1.0.0 
+│ │   └── through2-filter@2.0.0 
+│ └── pretty-bytes@1.0.4 
+├─┬ grunt-contrib-jshint@0.11.3 
+│ └─┬ jshint@2.8.0 
+│   ├─┬ console-browserify@1.1.0 
+│   │ └── date-now@0.1.4 
+│   ├── lodash@3.7.0 
+│   ├── shelljs@0.3.0 
+│   └── strip-json-comments@1.0.4 
+├─┬ grunt-contrib-uglify@0.10.1 
+│ ├─┬ chalk@1.0.0 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@1.0.3 
+│ │ │ └── ansi-regex@1.1.1 
+│ │ ├── strip-ansi@2.0.1 
+│ │ └── supports-color@1.3.1 
+│ ├── lodash@3.2.0 
+│ ├─┬ maxmin@1.0.1 
+│ │ └── pretty-bytes@1.0.4 
+│ ├─┬ uglify-js@2.5.0 
+│ │ ├── async@0.2.10 
+│ │ ├── source-map@0.5.3 
+│ │ ├── uglify-to-browserify@1.0.2 
+│ │ └─┬ yargs@3.5.4 
+│ │   ├── window-size@0.1.0 
+│ │   └── wordwrap@0.0.2 
+│ └── uri-path@1.0.0 
+├─┬ grunt-contrib-watch@0.6.1 
+│ ├── async@0.2.10 
+│ ├─┬ gaze@0.5.2 
+│ │ └─┬ globule@0.1.0 
+│ │   ├─┬ glob@3.1.21 
+│ │   │ ├── graceful-fs@1.2.3 
+│ │   │ └── inherits@1.0.2 
+│ │   ├── lodash@1.0.2 
+│ │   └─┬ minimatch@0.2.14 
+│ │     └── lru-cache@2.7.3 
+│ ├── lodash@2.4.2 
+│ └─┬ tiny-lr-fork@0.0.5 
+│   ├── debug@0.7.4 
+│   ├── faye-websocket@0.4.4 
+│   ├─┬ noptify@0.0.3 
+│   │ └── nopt@2.0.0 
+│   └── qs@0.5.6 
+├── grunt-karma@0.12.1 
+├─┬ grunt-modernizr@1.0.1 
+│ └─┬ customizr@1.0.0-alpha 
+│   ├── colors@0.6.2 
+│   ├── deep-equal@0.1.2 
+│   ├─┬ glob@3.2.11 
+│   │ └─┬ minimatch@0.3.0 
+│   │   └── lru-cache@2.7.3 
+│   ├── mkdirp@0.3.5 
+│   ├─┬ modernizr@3.2.0 
+│   │ ├─┬ doctrine@0.6.4 
+│   │ │ └── esutils@1.1.6 
+│   │ ├── file@0.2.2 
+│   │ ├── find-parent-dir@0.3.0 
+│   │ ├── marked@0.3.5 
+│   │ ├─┬ mkdirp@0.5.1 
+│   │ │ └── minimist@0.0.8 
+│   │ └── requirejs@2.1.20 
+│   ├── nopt@2.1.2 
+│   ├── promised-io@0.3.5 
+│   ├── underscore@1.5.2 
+│   └── win-spawn@2.0.0 
+├─┬ grunt-ng-annotate@1.0.1 
+│ ├─┬ lodash.clonedeep@3.0.2 
+│ │ ├─┬ lodash._baseclone@3.3.0 
+│ │ │ ├── lodash._baseassign@3.2.0 
+│ │ │ └── lodash._basefor@3.0.2 
+│ │ └── lodash._bindcallback@3.0.1 
+│ └─┬ ng-annotate@1.2.0 
+│   ├── acorn@2.6.4 
+│   ├── alter@0.2.0 
+│   ├── convert-source-map@1.1.2 
+│   ├─┬ ordered-ast-traverse@1.1.1 
+│   │ └── ordered-esprima-props@1.1.0 
+│   ├── simple-fmt@0.1.0 
+│   ├── simple-is@0.2.0 
+│   ├── source-map@0.5.3 
+│   ├── stable@0.1.5 
+│   ├── stringmap@0.2.2 
+│   ├── stringset@0.2.1 
+│   └── tryor@0.1.2 
+├─┬ grunt-ng-constant@1.1.0 
+│ ├── jju@1.2.1 
+│ ├── lodash@2.4.2 
+│ └── tosource@0.1.3 
+├── grunt-rev@0.1.0 
+├─┬ grunt-sass@1.1.0 
+│ ├─┬ each-async@1.1.1 
+│ │ ├── onetime@1.1.0 
+│ │ └── set-immediate-shim@1.0.1 
+│ ├─┬ node-sass@3.4.2 
+│ │ ├── async-foreach@0.1.3 
+│ │ ├─┬ chalk@1.1.1 
+│ │ │ ├── ansi-styles@2.1.0 
+│ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ ├── strip-ansi@3.0.0 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├── glob@5.0.15 
+│ │ ├─┬ mkdirp@0.5.1 
+│ │ │ └── minimist@0.0.8 
+│ │ ├── nan@2.1.0 
+│ │ ├─┬ node-gyp@3.2.1 
+│ │ │ ├─┬ fstream@1.0.8 
+│ │ │ │ └─┬ mkdirp@0.5.1 
+│ │ │ │   └── minimist@0.0.8 
+│ │ │ ├─┬ glob@4.5.3 
+│ │ │ │ └── minimatch@2.0.10 
+│ │ │ ├─┬ minimatch@1.0.0 
+│ │ │ │ └── lru-cache@2.7.3 
+│ │ │ ├─┬ mkdirp@0.5.1 
+│ │ │ │ └── minimist@0.0.8 
+│ │ │ ├─┬ npmlog@1.2.1 
+│ │ │ │ ├── ansi@0.3.0 
+│ │ │ │ ├─┬ are-we-there-yet@1.0.5 
+│ │ │ │ │ └── delegates@0.1.0 
+│ │ │ │ └─┬ gauge@1.2.2 
+│ │ │ │   ├── has-unicode@1.0.1 
+│ │ │ │   ├─┬ lodash.pad@3.1.1 
+│ │ │ │   │ └─┬ lodash._createpadding@3.6.1 
+│ │ │ │   │   └── lodash.repeat@3.0.1 
+│ │ │ │   ├── lodash.padleft@3.1.1 
+│ │ │ │   └── lodash.padright@3.1.1 
+│ │ │ ├─┬ path-array@1.0.0 
+│ │ │ │ └── array-index@0.1.1 
+│ │ │ └─┬ tar@2.2.1 
+│ │ │   └── block-stream@0.0.8 
+│ │ ├─┬ npmconf@2.1.2 
+│ │ │ ├─┬ mkdirp@0.5.1 
+│ │ │ │ └── minimist@0.0.8 
+│ │ │ └── semver@4.3.6 
+│ │ └─┬ sass-graph@2.0.1 
+│ │   └── glob@5.0.15 
+│ └── object-assign@4.0.1 
+├─┬ grunt-svgmin@3.1.0 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ log-symbols@1.0.2 
+│ │ └─┬ chalk@1.1.1 
+│ │   ├── ansi-styles@2.1.0 
+│ │   ├─┬ has-ansi@2.0.0 
+│ │   │ └── ansi-regex@2.0.0 
+│ │   ├── strip-ansi@3.0.0 
+│ │   └── supports-color@2.0.0 
+│ └─┬ svgo@0.6.1 
+│   ├─┬ coa@1.0.1 
+│   │ └── q@1.4.1 
+│   ├── colors@1.1.2 
+│   ├─┬ csso@1.4.4 
+│   │ └─┬ clap@1.0.10 
+│   │   └─┬ chalk@1.1.1 
+│   │     ├── ansi-styles@2.1.0 
+│   │     ├─┬ has-ansi@2.0.0 
+│   │     │ └── ansi-regex@2.0.0 
+│   │     ├── strip-ansi@3.0.0 
+│   │     └── supports-color@2.0.0 
+│   ├─┬ js-yaml@3.4.6 
+│   │ ├─┬ argparse@1.0.3 
+│   │ │ └── sprintf-js@1.0.3 
+│   │ └── inherit@2.2.2 
+│   ├─┬ mkdirp@0.5.1 
+│   │ └── minimist@0.0.8 
+│   └── whet.extend@0.9.9 
+├── grunt-text-replace@0.4.0 
+├─┬ grunt-usemin@3.1.1 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ debug@2.2.0 
+│ │ └── ms@0.7.1 
+│ └── path-exists@1.0.0 
+├── grunt-wiredep@2.0.0 
+├── jasmine-core@2.3.4 
+├─┬ jshint-stylish@2.1.0 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ plur@2.1.2 
+│ │ └── irregular-plurals@1.1.0 
+│ ├─┬ string-length@1.0.1 
+│ │ └─┬ strip-ansi@3.0.0 
+│ │   └── ansi-regex@2.0.0 
+│ └── text-table@0.2.0 
+├─┬ karma@0.13.15 
+│ ├── batch@0.5.3 
+│ ├── bluebird@2.10.2 
+│ ├─┬ body-parser@1.14.2 
+│ │ ├── bytes@2.2.0 
+│ │ ├── content-type@1.0.1 
+│ │ ├── depd@1.1.0 
+│ │ ├── iconv-lite@0.4.13 
+│ │ ├─┬ on-finished@2.3.0 
+│ │ │ └── ee-first@1.1.1 
+│ │ ├── qs@5.2.0 
+│ │ ├─┬ raw-body@2.1.5 
+│ │ │ └── iconv-lite@0.4.13 
+│ │ └─┬ type-is@1.6.10 
+│ │   └── media-typer@0.3.0 
+│ ├── colors@1.1.2 
+│ ├── core-js@1.2.6 
+│ ├── di@0.0.1 
+│ ├─┬ dom-serialize@2.2.1 
+│ │ ├── custom-event@1.0.0 
+│ │ ├── ent@2.2.0 
+│ │ ├── extend@3.0.0 
+│ │ └── void-elements@2.0.1 
+│ ├─┬ expand-braces@0.1.2 
+│ │ ├── array-slice@0.2.3 
+│ │ ├── array-unique@0.2.1 
+│ │ └─┬ braces@0.1.5 
+│ │   └─┬ expand-range@0.1.1 
+│ │     ├── is-number@0.1.1 
+│ │     └── repeat-string@0.2.2 
+│ ├─┬ glob@5.0.15 
+│ │ ├─┬ inflight@1.0.4 
+│ │ │ └── wrappy@1.0.1 
+│ │ └── once@1.3.3 
+│ ├── graceful-fs@4.1.2 
+│ ├─┬ http-proxy@1.12.0 
+│ │ ├── eventemitter3@1.1.1 
+│ │ └── requires-port@0.0.1 
+│ ├─┬ log4js@0.6.29 
+│ │ ├── async@0.2.10 
+│ │ ├── readable-stream@1.0.33 
+│ │ ├── semver@4.3.6 
+│ │ └── underscore@1.8.2 
+│ ├── mime@1.3.4 
+│ ├─┬ minimatch@3.0.0 
+│ │ └─┬ brace-expansion@1.1.2 
+│ │   ├── balanced-match@0.3.0 
+│ │   └── concat-map@0.0.1 
+│ ├─┬ optimist@0.6.1 
+│ │ ├── minimist@0.0.10 
+│ │ └── wordwrap@0.0.3 
+│ ├── source-map@0.5.3 
+│ └─┬ useragent@2.1.8 
+│   └── lru-cache@2.2.4 
+├─┬ karma-chrome-launcher@0.2.1 
+│ ├─┬ fs-access@1.0.0 
+│ │ └── null-check@1.0.0 
+│ └─┬ which@1.2.1 
+│   └─┬ is-absolute@0.1.7 
+│     └── is-relative@0.1.3 
+├─┬ karma-coverage@0.5.3 
+│ ├── dateformat@1.0.12 
+│ ├─┬ istanbul@0.4.1 
+│ │ ├─┬ escodegen@1.7.1 
+│ │ │ ├── esprima@1.2.5 
+│ │ │ ├── estraverse@1.9.3 
+│ │ │ ├── esutils@2.0.2 
+│ │ │ ├─┬ optionator@0.5.0 
+│ │ │ │ ├── deep-is@0.1.3 
+│ │ │ │ ├── fast-levenshtein@1.0.7 
+│ │ │ │ ├── levn@0.2.5 
+│ │ │ │ ├── prelude-ls@1.1.2 
+│ │ │ │ ├── type-check@0.3.1 
+│ │ │ │ └── wordwrap@0.0.3 
+│ │ │ └── source-map@0.2.0 
+│ │ ├── esprima@2.7.1 
+│ │ ├─┬ fileset@0.2.1 
+│ │ │ └── glob@5.0.15 
+│ │ ├─┬ handlebars@4.0.5 
+│ │ │ ├── source-map@0.4.4 
+│ │ │ └─┬ uglify-js@2.6.1 
+│ │ │   ├── async@0.2.10 
+│ │ │   ├── source-map@0.5.3 
+│ │ │   └─┬ yargs@3.10.0 
+│ │ │     ├─┬ cliui@2.1.0 
+│ │ │     │ └── wordwrap@0.0.2 
+│ │ │     └── window-size@0.1.0 
+│ │ ├─┬ js-yaml@3.4.6 
+│ │ │ └── argparse@1.0.3 
+│ │ ├─┬ mkdirp@0.5.1 
+│ │ │ └── minimist@0.0.8 
+│ │ ├── resolve@1.1.6 
+│ │ └─┬ supports-color@3.1.2 
+│ │   └── has-flag@1.0.0 
+│ ├── minimatch@3.0.0 
+│ └── source-map@0.5.3 
+├── karma-html2js-preprocessor@0.1.0 
+├── karma-jasmine@0.3.6 
+├─┬ karma-jenkins-reporter@0.0.2 
+│ └── xmlbuilder@0.4.2 
+├── karma-phantomjs-launcher@0.2.1 
+├── karma-requirejs@0.2.2 
+├── karma-script-launcher@0.1.0 
+├─┬ load-grunt-tasks@3.3.0 
+│ ├── arrify@1.0.1 
+│ ├─┬ multimatch@2.1.0 
+│ │ ├── array-differ@1.0.0 
+│ │ ├── array-union@1.0.1 
+│ │ └── minimatch@3.0.0 
+│ └─┬ pkg-up@1.0.0 
+│   └─┬ find-up@1.1.0 
+│     └── path-exists@2.1.0 
+├── lodash@3.10.1 
+├─┬ phantomjs@1.9.18 
+│ ├── adm-zip@0.4.4 
+│ ├── fs-extra@0.23.1 
+│ ├── kew@0.4.0 
+│ ├─┬ npmconf@2.1.1 
+│ │ ├─┬ config-chain@1.1.9 
+│ │ │ └── proto-list@1.2.4 
+│ │ ├── ini@1.3.4 
+│ │ ├─┬ mkdirp@0.5.1 
+│ │ │ └── minimist@0.0.8 
+│ │ ├── osenv@0.1.3 
+│ │ ├── semver@4.3.6 
+│ │ └── uid-number@0.0.5 
+│ ├── progress@1.1.8 
+│ ├─┬ request@2.42.0 
+│ │ ├── aws-sign2@0.5.0 
+│ │ ├─┬ bl@0.9.4 
+│ │ │ └── readable-stream@1.0.33 
+│ │ ├── caseless@0.6.0 
+│ │ ├── forever-agent@0.5.2 
+│ │ ├─┬ form-data@0.1.4 
+│ │ │ ├── async@0.9.2 
+│ │ │ ├─┬ combined-stream@0.0.7 
+│ │ │ │ └── delayed-stream@0.0.5 
+│ │ │ └── mime@1.2.11 
+│ │ ├─┬ hawk@1.1.1 
+│ │ │ ├── boom@0.4.2 
+│ │ │ ├── cryptiles@0.2.2 
+│ │ │ ├── hoek@0.9.1 
+│ │ │ └── sntp@0.2.4 
+│ │ ├─┬ http-signature@0.10.1 
+│ │ │ ├── asn1@0.1.11 
+│ │ │ ├── assert-plus@0.1.5 
+│ │ │ └── ctype@0.5.3 
+│ │ ├── json-stringify-safe@5.0.1 
+│ │ ├── mime-types@1.0.2 
+│ │ ├── node-uuid@1.4.7 
+│ │ ├── oauth-sign@0.4.0 
+│ │ ├── qs@1.2.2 
+│ │ ├── stringstream@0.0.5 
+│ │ ├── tough-cookie@2.2.1 
+│ │ └── tunnel-agent@0.4.2 
+│ ├─┬ request-progress@0.3.1 
+│ │ └── throttleit@0.0.2 
+│ └── which@1.0.9 
+├── requirejs@2.1.22 
+├─┬ time-grunt@1.2.2 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├─┬ has-ansi@2.0.0 
+│ │ │ └── ansi-regex@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├── date-time@1.0.0 
+│ ├── figures@1.4.0 
+│ ├── number-is-nan@1.0.0 
+│ └─┬ pretty-ms@2.1.0 
+│   ├── is-finite@1.0.1 
+│   ├── parse-ms@1.0.0 
+│   └── plur@1.0.0 
+├─┬ wiredep@2.2.2 
+│ ├─┬ bower-config@0.5.2 
+│ │ ├── graceful-fs@2.0.3 
+│ │ ├── mout@0.9.1 
+│ │ └── osenv@0.0.3 
+│ ├── glob@4.5.3 
+│ ├── lodash@2.4.2 
+│ ├── minimist@1.2.0 
+│ ├── propprop@0.3.0 
+│ └─┬ through2@0.6.5 
+│   ├── readable-stream@1.0.33 
+│   └── xtend@4.0.1 
+├─┬ xml2js@0.4.15 
+│ ├── sax@1.1.4 
+│ └── xmlbuilder@4.2.0 
+├─┬ yo@1.5.1 
+│ ├── async@1.5.0 
+│ ├─┬ chalk@1.1.1 
+│ │ ├── ansi-styles@2.1.0 
+│ │ ├── has-ansi@2.0.0 
+│ │ ├── strip-ansi@3.0.0 
+│ │ └── supports-color@2.0.0 
+│ ├─┬ configstore@1.4.0 
+│ │ ├─┬ mkdirp@0.5.1 
+│ │ │ └── minimist@0.0.8 
+│ │ ├── object-assign@4.0.1 
+│ │ ├── os-tmpdir@1.0.1 
+│ │ ├── uuid@2.0.1 
+│ │ └─┬ write-file-atomic@1.1.4 
+│ │   ├── imurmurhash@0.1.4 
+│ │   └── slide@1.1.6 
+│ ├─┬ cross-spawn-async@2.1.1 
+│ │ └─┬ lru-cache@3.2.0 
+│ │   └── pseudomap@1.0.1 
+│ ├─┬ fullname@2.1.0 
+│ │ └── pify@2.3.0 
+│ ├─┬ got@5.3.0 
+│ │ ├─┬ create-error-class@2.0.1 
+│ │ │ └── capture-stack-trace@1.0.0 
+│ │ ├─┬ duplexify@3.4.2 
+│ │ │ └── end-of-stream@1.0.0 
+│ │ ├── is-plain-obj@1.1.0 
+│ │ ├── is-redirect@1.0.0 
+│ │ ├── is-stream@1.0.1 
+│ │ ├── lowercase-keys@1.0.0 
+│ │ ├── node-status-codes@1.0.0 
+│ │ ├── object-assign@4.0.1 
+│ │ ├─┬ parse-json@2.2.0 
+│ │ │ └─┬ error-ex@1.3.0 
+│ │ │   └── is-arrayish@0.2.1 
+│ │ ├─┬ pinkie-promise@2.0.0 
+│ │ │ └── pinkie@2.0.1 
+│ │ ├─┬ read-all-stream@3.0.1 
+│ │ │ └─┬ pinkie-promise@1.0.0 
+│ │ │   └── pinkie@1.0.0 
+│ │ ├── timed-out@2.0.0 
+│ │ ├── unzip-response@1.0.0 
+│ │ └── url-parse-lax@1.0.0 
+│ ├─┬ humanize-string@1.0.1 
+│ │ └── decamelize@1.1.2 
+│ ├─┬ inquirer@0.11.0 
+│ │ ├── ansi-escapes@1.1.0 
+│ │ ├── ansi-regex@2.0.0 
+│ │ ├─┬ cli-cursor@1.0.2 
+│ │ │ └─┬ restore-cursor@1.0.1 
+│ │ │   └── exit-hook@1.1.1 
+│ │ ├── cli-width@1.1.0 
+│ │ ├─┬ readline2@1.0.1 
+│ │ │ ├── code-point-at@1.0.0 
+│ │ │ ├── is-fullwidth-code-point@1.0.0 
+│ │ │ └── mute-stream@0.0.5 
+│ │ └── rx-lite@3.1.2 
+│ ├─┬ insight@0.7.0 
+│ │ ├── inquirer@0.10.1 
+│ │ └── object-assign@4.0.1 
+│ ├─┬ npm-keyword@4.2.0 
+│ │ └─┬ registry-url@3.0.3 
+│ │   └─┬ rc@1.1.5 
+│ │     ├── deep-extend@0.4.0 
+│ │     └── strip-json-comments@1.0.4 
+│ ├─┬ package-json@2.3.0 
+│ │ ├─┬ rc@1.1.5 
+│ │ │ ├── deep-extend@0.4.0 
+│ │ │ └── strip-json-comments@1.0.4 
+│ │ └── semver@5.1.0 
+│ ├─┬ read-pkg-up@1.0.1 
+│ │ └─┬ read-pkg@1.1.0 
+│ │   ├── load-json-file@1.1.0 
+│ │   ├─┬ normalize-package-data@2.3.5 
+│ │   │ ├── hosted-git-info@2.1.4 
+│ │   │ ├─┬ is-builtin-module@1.0.0 
+│ │   │ │ └── builtin-modules@1.1.0 
+│ │   │ └─┬ validate-npm-package-license@3.0.1 
+│ │   │   ├─┬ spdx-correct@1.0.2 
+│ │   │   │ └── spdx-license-ids@1.1.0 
+│ │   │   └─┬ spdx-expression-parse@1.0.2 
+│ │   │     └── spdx-exceptions@1.0.4 
+│ │   └── path-type@1.1.0 
+│ ├── repeating@2.0.0 
+│ ├─┬ root-check@1.0.0 
+│ │ ├─┬ downgrade-root@1.1.0 
+│ │ │ ├── default-uid@1.0.0 
+│ │ │ └── is-root@1.0.0 
+│ │ └─┬ sudo-block@1.2.0 
+│ │   ├─┬ chalk@1.1.1 
+│ │   │ ├── ansi-styles@2.1.0 
+│ │   │ ├─┬ has-ansi@2.0.0 
+│ │   │ │ └── ansi-regex@2.0.0 
+│ │   │ ├── strip-ansi@3.0.0 
+│ │   │ └── supports-color@2.0.0 
+│ │   └── is-docker@1.0.0 
+│ ├─┬ sort-on@1.2.2 
+│ │ └── dot-prop@2.2.0 
+│ ├── titleize@1.0.0 
+│ ├─┬ update-notifier@0.5.0 
+│ │ ├─┬ chalk@1.1.1 
+│ │ │ ├── ansi-styles@2.1.0 
+│ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ ├── strip-ansi@3.0.0 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├── is-npm@1.0.0 
+│ │ ├── latest-version@1.0.1 
+│ │ └── semver-diff@2.1.0 
+│ ├─┬ user-home@2.0.0 
+│ │ └── os-homedir@1.0.1 
+│ ├─┬ yeoman-character@1.1.0 
+│ │ └── supports-color@3.1.2 
+│ ├─┬ yeoman-doctor@2.0.0 
+│ │ ├─┬ bin-version-check@2.1.0 
+│ │ │ ├─┬ bin-version@1.0.4 
+│ │ │ │ └─┬ find-versions@1.2.1 
+│ │ │ │   ├─┬ meow@3.6.0 
+│ │ │ │   │ ├─┬ camelcase-keys@2.0.0 
+│ │ │ │   │ │ └── camelcase@2.0.1 
+│ │ │ │   │ └── object-assign@4.0.1 
+│ │ │ │   └── semver-regex@1.0.0 
+│ │ │ ├── semver@4.3.6 
+│ │ │ └── semver-truncate@1.1.0 
+│ │ ├── object-values@1.0.0 
+│ │ └─┬ twig@0.8.5 
+│ │   ├─┬ minimatch@0.2.14 
+│ │   │ └── lru-cache@2.7.3 
+│ │   └─┬ walk@2.3.9 
+│ │     └── foreachasync@3.0.0 
+│ ├─┬ yeoman-environment@1.5.0 
+│ │ ├─┬ chalk@1.1.1 
+│ │ │ ├── ansi-styles@2.1.0 
+│ │ │ ├── has-ansi@2.0.0 
+│ │ │ ├── strip-ansi@3.0.0 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├─┬ globby@4.0.0 
+│ │ │ └── object-assign@4.0.1 
+│ │ ├── grouped-queue@0.3.2 
+│ │ ├─┬ inquirer@0.11.0 
+│ │ │ ├── ansi-regex@2.0.0 
+│ │ │ └─┬ readline2@1.0.1 
+│ │ │   └── mute-stream@0.0.5 
+│ │ ├─┬ mem-fs@1.1.2 
+│ │ │ └── vinyl-file@1.3.0 
+│ │ └── untildify@2.1.0 
+│ └─┬ yosay@1.1.0 
+│   ├── ansi-regex@2.0.0 
+│   ├── ansi-styles@2.1.0 
+│   ├─┬ chalk@1.1.1 
+│   │ ├── has-ansi@2.0.0 
+│   │ └── supports-color@2.0.0 
+│   ├── pad-component@0.0.1 
+│   ├── repeating@2.0.0 
+│   ├─┬ string-width@1.0.1 
+│   │ └─┬ strip-ansi@3.0.0 
+│   │   └── ansi-regex@2.0.0 
+│   ├── strip-ansi@3.0.0 
+│   ├── taketalk@1.0.0 
+│   └── word-wrap@1.1.0 
+└── zeparser@0.0.7 
+
+npm WARN In dom-serializer@0.1.0 replacing bundled version of domelementtype with domelementtype@1.1.3
+npm WARN In class-extend@0.1.2 replacing bundled version of object-assign with object-assign@2.1.1
+npm WARN In readline2@0.1.1 replacing bundled version of strip-ansi with strip-ansi@2.0.1
+npm WARN In readline2@0.1.1 replacing bundled version of ansi-regex with ansi-regex@1.1.1
+npm WARN In configstore@1.4.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In configstore@1.4.0 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In configstore@1.4.0 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In has-ansi@2.0.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In strip-ansi@3.0.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In log-symbols@1.0.2 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In log-symbols@1.0.2 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In log-symbols@1.0.2 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In log-symbols@1.0.2 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In log-symbols@1.0.2 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In log-symbols@1.0.2 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In registry-url@3.0.3 replacing bundled version of rc with rc@1.1.5
+npm WARN In registry-url@3.0.3 replacing bundled version of deep-extend with deep-extend@0.4.0
+npm WARN In registry-url@3.0.3 replacing bundled version of strip-json-comments with strip-json-comments@1.0.4
+npm WARN In string-length@1.0.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In string-length@1.0.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In redent@1.0.0 replacing bundled version of indent-string with indent-string@2.1.0
+npm WARN In redent@1.0.0 replacing bundled version of repeating with repeating@2.0.0
+npm WARN In vinyl-assign@1.2.1 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yeoman-welcome@1.0.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In exec-series@1.0.2 replacing bundled version of async-each-series with async-each-series@1.1.0
+npm WARN In expand-braces@0.1.2 replacing bundled version of braces with braces@0.1.5
+npm WARN In expand-braces@0.1.2 replacing bundled version of expand-range with expand-range@0.1.1
+npm WARN In expand-braces@0.1.2 replacing bundled version of repeat-string with repeat-string@0.2.2
+npm WARN In expand-braces@0.1.2 replacing bundled version of is-number with is-number@0.1.1
+npm WARN In multimatch@2.1.0 replacing bundled version of minimatch with minimatch@3.0.0
+npm WARN In pretty-ms@2.1.0 replacing bundled version of plur with plur@1.0.0
+npm WARN In find-up@1.1.0 replacing bundled version of path-exists with path-exists@2.1.0
+npm WARN In align-text@0.1.3 replacing bundled version of kind-of with kind-of@2.0.1
+npm WARN In fancy-log@1.1.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In fancy-log@1.1.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In fancy-log@1.1.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In fancy-log@1.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In fancy-log@1.1.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In fancy-log@1.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In squeak@1.3.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In squeak@1.3.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In squeak@1.3.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In squeak@1.3.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In squeak@1.3.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In squeak@1.3.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In string-width@1.0.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In string-width@1.0.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In jshint-stylish@2.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In sudo-block@1.2.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In sudo-block@1.2.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In sudo-block@1.2.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In sudo-block@1.2.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In sudo-block@1.2.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In sudo-block@1.2.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In sum-up@1.0.2 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In sum-up@1.0.2 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In sum-up@1.0.2 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In sum-up@1.0.2 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In sum-up@1.0.2 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In sum-up@1.0.2 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In time-grunt@1.2.2 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In time-grunt@1.2.2 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In time-grunt@1.2.2 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In time-grunt@1.2.2 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In time-grunt@1.2.2 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In time-grunt@1.2.2 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In read-all-stream@3.0.1 replacing bundled version of pinkie-promise with pinkie-promise@1.0.0
+npm WARN In read-all-stream@3.0.1 replacing bundled version of pinkie with pinkie@1.0.0
+npm WARN In maxmin@1.1.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In maxmin@1.1.0 replacing bundled version of pretty-bytes with pretty-bytes@1.0.4
+npm WARN In maxmin@1.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In maxmin@1.1.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In maxmin@1.1.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In maxmin@1.1.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In maxmin@1.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In package-json@1.2.0 replacing bundled version of got with got@3.3.1
+npm WARN In got@5.3.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In gh-got@2.4.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In npm-keyword@1.2.0 replacing bundled version of got with got@3.3.1
+npm WARN In globby@4.0.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In update-notifier@0.5.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In update-notifier@0.5.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In update-notifier@0.5.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In update-notifier@0.5.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In update-notifier@0.5.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In update-notifier@0.5.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In glob-stream@5.3.1 replacing bundled version of through2 with through2@0.6.5
+npm WARN In glob-stream@5.3.1 replacing bundled version of glob with glob@5.0.15
+npm WARN In glob-stream@5.3.1 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In decompress-tar@3.1.0 replacing bundled version of through2 with through2@0.6.5
+npm WARN In decompress-tar@3.1.0 replacing bundled version of vinyl with vinyl@0.4.6
+npm WARN In decompress-tar@3.1.0 replacing bundled version of object-assign with object-assign@2.1.1
+npm WARN In decompress-tar@3.1.0 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In decompress-tar@3.1.0 replacing bundled version of clone with clone@0.2.0
+npm WARN In imagemin-optipng@4.3.0 replacing bundled version of through2 with through2@0.6.5
+npm WARN In imagemin-optipng@4.3.0 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In decompress-tarbz2@3.1.0 replacing bundled version of object-assign with object-assign@2.1.1
+npm WARN In decompress-tarbz2@3.1.0 replacing bundled version of vinyl with vinyl@0.4.6
+npm WARN In decompress-tarbz2@3.1.0 replacing bundled version of through2 with through2@0.6.5
+npm WARN In decompress-tarbz2@3.1.0 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In decompress-tarbz2@3.1.0 replacing bundled version of clone with clone@0.2.0
+npm WARN In download@4.4.3 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In decompress-targz@3.1.0 replacing bundled version of object-assign with object-assign@2.1.1
+npm WARN In decompress-targz@3.1.0 replacing bundled version of through2 with through2@0.6.5
+npm WARN In decompress-targz@3.1.0 replacing bundled version of vinyl with vinyl@0.4.6
+npm WARN In decompress-targz@3.1.0 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In decompress-targz@3.1.0 replacing bundled version of clone with clone@0.2.0
+npm WARN In imagemin-gifsicle@4.2.0 replacing bundled version of through2 with through2@0.6.5
+npm WARN In imagemin-gifsicle@4.2.0 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-contrib-copy@0.8.2 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of clean-css with clean-css@3.4.8
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of commander with commander@2.8.1
+npm WARN In grunt-contrib-cssmin@0.14.0 replacing bundled version of source-map with source-map@0.4.4
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-svgmin@3.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of html-minifier with html-minifier@1.0.1
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of change-case with change-case@2.3.1
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of cli with cli@0.11.1
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of clean-css with clean-css@3.4.8
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of commander with commander@2.8.1
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of source-map with source-map@0.4.4
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of glob with glob@5.0.15
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of yargs with yargs@3.10.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of async with async@0.2.10
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of window-size with window-size@0.1.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of cliui with cliui@2.1.0
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of wordwrap with wordwrap@0.0.2
+npm WARN In grunt-sass@1.1.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of pretty-bytes with pretty-bytes@1.0.4
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of async with async@0.9.2
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-contrib-imagemin@1.0.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In clap@1.0.10 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In clap@1.0.10 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In clap@1.0.10 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In clap@1.0.10 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In clap@1.0.10 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In clap@1.0.10 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In bin-version-check@2.1.0 replacing bundled version of semver with semver@4.3.6
+npm WARN In grunt-contrib-htmlmin@0.6.0 replacing bundled version of uglify-js with uglify-js@2.6.1
+npm WARN In yosay@1.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yosay@1.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yosay@1.1.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yosay@1.1.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yosay@1.1.0 replacing bundled version of repeating with repeating@2.0.0
+npm WARN In yosay@1.1.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yosay@1.1.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In socket.io-adapter@0.3.1 replacing bundled version of debug with debug@0.7.4
+npm WARN In socket.io-adapter@0.3.1 replacing bundled version of debug with debug@1.0.2
+npm WARN In socket.io-adapter@0.3.1 replacing bundled version of ms with ms@0.6.2
+npm WARN In socket.io-adapter@0.3.1 replacing bundled version of socket.io-parser with socket.io-parser@2.2.2
+npm WARN In portscanner@1.0.0 replacing bundled version of async with async@0.1.15
+npm WARN In raw-body@2.1.5 replacing bundled version of iconv-lite with iconv-lite@0.4.13
+npm WARN In findup-sync@0.2.1 replacing bundled version of glob with glob@4.3.5
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of diff with diff@1.3.2
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of chalk with chalk@1.0.0
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of supports-color with supports-color@1.3.1
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of strip-ansi with strip-ansi@2.0.1
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of has-ansi with has-ansi@1.0.3
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-autoprefixer@3.0.3 replacing bundled version of ansi-regex with ansi-regex@1.1.1
+npm WARN In send@0.13.0 replacing bundled version of mime with mime@1.3.4
+npm WARN In insight@0.6.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In insight@0.6.0 replacing bundled version of object-assign with object-assign@2.1.1
+npm WARN In insight@0.6.0 replacing bundled version of async with async@0.9.2
+npm WARN In insight@0.6.0 replacing bundled version of tough-cookie with tough-cookie@1.2.0
+npm WARN In insight@0.6.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In insight@0.6.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In insight@0.6.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In insight@0.6.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In insight@0.6.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In insight@0.7.0 replacing bundled version of inquirer with inquirer@0.10.1
+npm WARN In opn@3.0.3 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In grunt-contrib-concat@0.5.1 replacing bundled version of source-map with source-map@0.3.0
+npm WARN In strip-dirs@1.1.1 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In strip-dirs@1.1.1 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In strip-dirs@1.1.1 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In strip-dirs@1.1.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In strip-dirs@1.1.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In strip-dirs@1.1.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In find-versions@1.2.1 replacing bundled version of meow with meow@3.6.0
+npm WARN In find-versions@1.2.1 replacing bundled version of camelcase-keys with camelcase-keys@2.0.0
+npm WARN In find-versions@1.2.1 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In find-versions@1.2.1 replacing bundled version of camelcase with camelcase@2.0.1
+npm WARN In github-username@2.1.0 replacing bundled version of meow with meow@3.6.0
+npm WARN In github-username@2.1.0 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In github-username@2.1.0 replacing bundled version of camelcase-keys with camelcase-keys@2.0.0
+npm WARN In github-username@2.1.0 replacing bundled version of camelcase with camelcase@2.0.1
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of chalk with chalk@1.0.0
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of lodash with lodash@3.2.0
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of maxmin with maxmin@1.0.1
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of uglify-js with uglify-js@2.5.0
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of supports-color with supports-color@1.3.1
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of strip-ansi with strip-ansi@2.0.1
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of has-ansi with has-ansi@1.0.3
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of ansi-regex with ansi-regex@1.1.1
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of pretty-bytes with pretty-bytes@1.0.4
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of async with async@0.2.10
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of yargs with yargs@3.5.4
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of window-size with window-size@0.1.0
+npm WARN In grunt-contrib-uglify@0.10.1 replacing bundled version of wordwrap with wordwrap@0.0.2
+npm WARN In xml2js@0.4.15 replacing bundled version of xmlbuilder with xmlbuilder@4.2.0
+npm WARN In yeoman-character@1.1.0 replacing bundled version of supports-color with supports-color@3.1.2
+npm WARN In glob@4.5.3 replacing bundled version of minimatch with minimatch@2.0.10
+npm WARN In grunt-contrib-watch@0.6.1 replacing bundled version of async with async@0.2.10
+npm WARN In grunt-contrib-watch@0.6.1 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In multipipe@0.1.2 replacing bundled version of duplexer2 with duplexer2@0.0.2
+npm WARN In multipipe@0.1.2 replacing bundled version of readable-stream with readable-stream@1.1.13
+npm WARN In optionator@0.5.0 replacing bundled version of wordwrap with wordwrap@0.0.3
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of inquirer with inquirer@0.11.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of readline2 with readline2@1.0.1
+npm WARN In yeoman-environment@1.5.0 replacing bundled version of mute-stream with mute-stream@0.0.5
+npm WARN In escodegen@1.7.1 replacing bundled version of esprima with esprima@1.2.5
+npm WARN In grunt-legacy-log-utils@0.1.1 replacing bundled version of colors with colors@0.6.2
+npm WARN In grunt-legacy-log-utils@0.1.1 replacing bundled version of underscore.string with underscore.string@2.3.3
+npm WARN In grunt-legacy-log-utils@0.1.1 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In cliui@3.1.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In cliui@3.1.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In wiredep@2.2.2 replacing bundled version of glob with glob@4.5.3
+npm WARN In wiredep@2.2.2 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In wiredep@2.2.2 replacing bundled version of through2 with through2@0.6.5
+npm WARN In wiredep@2.2.2 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In seek-bzip@1.0.5 replacing bundled version of commander with commander@2.8.1
+npm WARN In grunt-legacy-log@0.1.3 replacing bundled version of colors with colors@0.6.2
+npm WARN In grunt-legacy-log@0.1.3 replacing bundled version of underscore.string with underscore.string@2.3.3
+npm WARN In grunt-legacy-log@0.1.3 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In body-parser@1.14.2 replacing bundled version of qs with qs@5.2.0
+npm WARN In body-parser@1.14.2 replacing bundled version of iconv-lite with iconv-lite@0.4.13
+npm WARN In body-parser@1.14.2 replacing bundled version of depd with depd@1.1.0
+npm WARN In foxy@11.1.4 replacing bundled version of resp-modifier with resp-modifier@4.0.4
+npm WARN In fileset@0.2.1 replacing bundled version of glob with glob@5.0.15
+npm WARN In socket.io-parser@2.2.2 replacing bundled version of debug with debug@0.7.4
+npm WARN In socket.io@1.3.7 replacing bundled version of debug with debug@2.1.0
+npm WARN In socket.io@1.3.7 replacing bundled version of ms with ms@0.6.2
+npm WARN In rc@0.5.5 replacing bundled version of minimist with minimist@0.0.10
+npm WARN In phantomjs@1.9.18 replacing bundled version of which with which@1.0.9
+npm WARN In phantomjs@1.9.18 replacing bundled version of fs-extra with fs-extra@0.23.1
+npm WARN In phantomjs@1.9.18 replacing bundled version of npmconf with npmconf@2.1.1
+npm WARN In phantomjs@1.9.18 replacing bundled version of request with request@2.42.0
+npm WARN In phantomjs@1.9.18 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In phantomjs@1.9.18 replacing bundled version of semver with semver@4.3.6
+npm WARN In phantomjs@1.9.18 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In phantomjs@1.9.18 replacing bundled version of qs with qs@1.2.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of caseless with caseless@0.6.0
+npm WARN In phantomjs@1.9.18 replacing bundled version of oauth-sign with oauth-sign@0.4.0
+npm WARN In phantomjs@1.9.18 replacing bundled version of form-data with form-data@0.1.4
+npm WARN In phantomjs@1.9.18 replacing bundled version of mime-types with mime-types@1.0.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of aws-sign2 with aws-sign2@0.5.0
+npm WARN In phantomjs@1.9.18 replacing bundled version of forever-agent with forever-agent@0.5.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of bl with bl@0.9.4
+npm WARN In phantomjs@1.9.18 replacing bundled version of http-signature with http-signature@0.10.1
+npm WARN In phantomjs@1.9.18 replacing bundled version of hawk with hawk@1.1.1
+npm WARN In phantomjs@1.9.18 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In phantomjs@1.9.18 replacing bundled version of async with async@0.9.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of combined-stream with combined-stream@0.0.7
+npm WARN In phantomjs@1.9.18 replacing bundled version of mime with mime@1.2.11
+npm WARN In phantomjs@1.9.18 replacing bundled version of delayed-stream with delayed-stream@0.0.5
+npm WARN In phantomjs@1.9.18 replacing bundled version of cryptiles with cryptiles@0.2.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of sntp with sntp@0.2.4
+npm WARN In phantomjs@1.9.18 replacing bundled version of boom with boom@0.4.2
+npm WARN In phantomjs@1.9.18 replacing bundled version of hoek with hoek@0.9.1
+npm WARN In noptify@0.0.3 replacing bundled version of nopt with nopt@2.0.0
+npm WARN In bower-config@0.5.2 replacing bundled version of osenv with osenv@0.0.3
+npm WARN In bower-config@0.5.2 replacing bundled version of graceful-fs with graceful-fs@2.0.3
+npm WARN In findup-sync@0.1.3 replacing bundled version of glob with glob@3.2.11
+npm WARN In findup-sync@0.1.3 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In findup-sync@0.1.3 replacing bundled version of minimatch with minimatch@0.3.0
+npm WARN In findup@0.1.5 replacing bundled version of colors with colors@0.6.2
+npm WARN In findup@0.1.5 replacing bundled version of commander with commander@2.1.0
+npm WARN In socket.io-client@1.3.7 replacing bundled version of debug with debug@0.7.4
+npm WARN In gulp-util@3.0.7 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In gulp-util@3.0.7 replacing bundled version of vinyl with vinyl@0.5.3
+npm WARN In gulp-util@3.0.7 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In gulp-util@3.0.7 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In gulp-util@3.0.7 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In gulp-util@3.0.7 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In gulp-util@3.0.7 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yo@1.5.1 replacing bundled version of repeating with repeating@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of inquirer with inquirer@0.10.1
+npm WARN In yo@1.5.1 replacing bundled version of inquirer with inquirer@0.11.0
+npm WARN In yo@1.5.1 replacing bundled version of npm-keyword with npm-keyword@4.2.0
+npm WARN In yo@1.5.1 replacing bundled version of fullname with fullname@2.1.0
+npm WARN In yo@1.5.1 replacing bundled version of package-json with package-json@2.3.0
+npm WARN In yo@1.5.1 replacing bundled version of yeoman-doctor with yeoman-doctor@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yo@1.5.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yo@1.5.1 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yo@1.5.1 replacing bundled version of readline2 with readline2@1.0.1
+npm WARN In yo@1.5.1 replacing bundled version of mute-stream with mute-stream@0.0.5
+npm WARN In yo@1.5.1 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In yo@1.5.1 replacing bundled version of rc with rc@1.1.5
+npm WARN In yo@1.5.1 replacing bundled version of strip-json-comments with strip-json-comments@1.0.4
+npm WARN In yo@1.5.1 replacing bundled version of deep-extend with deep-extend@0.4.0
+npm WARN In yo@1.5.1 replacing bundled version of insight with insight@0.7.0
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In grunt-usemin@3.1.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In mem-fs-editor@2.1.0 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In mem-fs-editor@2.1.0 replacing bundled version of deep-extend with deep-extend@0.4.0
+npm WARN In mem-fs-editor@2.1.0 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In grunt-legacy-util@0.2.0 replacing bundled version of which with which@1.0.9
+npm WARN In grunt-legacy-util@0.2.0 replacing bundled version of async with async@0.1.22
+npm WARN In grunt-legacy-util@0.2.0 replacing bundled version of lodash with lodash@0.9.2
+npm WARN In grunt-legacy-util@0.2.0 replacing bundled version of underscore.string with underscore.string@2.2.1
+npm WARN In cli@0.6.6 replacing bundled version of glob with glob@3.2.11
+npm WARN In cli@0.6.6 replacing bundled version of minimatch with minimatch@0.3.0
+npm WARN In cli@0.6.6 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In engine.io@1.5.4 replacing bundled version of debug with debug@1.0.3
+npm WARN In engine.io@1.5.4 replacing bundled version of ms with ms@0.6.2
+npm WARN In globule@0.1.0 replacing bundled version of lodash with lodash@1.0.2
+npm WARN In globule@0.1.0 replacing bundled version of minimatch with minimatch@0.2.14
+npm WARN In globule@0.1.0 replacing bundled version of glob with glob@3.1.21
+npm WARN In globule@0.1.0 replacing bundled version of graceful-fs with graceful-fs@1.2.3
+npm WARN In globule@0.1.0 replacing bundled version of inherits with inherits@1.0.2
+npm WARN In globule@0.1.0 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In tiny-lr-fork@0.0.5 replacing bundled version of debug with debug@0.7.4
+npm WARN In tiny-lr-fork@0.0.5 replacing bundled version of qs with qs@0.5.6
+npm WARN In karma-coverage@0.5.3 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In karma-coverage@0.5.3 replacing bundled version of minimatch with minimatch@3.0.0
+npm WARN In glob@3.1.21 replacing bundled version of inherits with inherits@1.0.2
+npm WARN In useragent@2.1.8 replacing bundled version of lru-cache with lru-cache@2.2.4
+npm WARN In engine.io-client@1.5.4 replacing bundled version of parseuri with parseuri@0.0.4
+npm WARN In engine.io-client@1.5.4 replacing bundled version of debug with debug@1.0.4
+npm WARN In engine.io-client@1.5.4 replacing bundled version of ms with ms@0.6.2
+npm WARN In grunt@0.4.5 replacing bundled version of minimatch with minimatch@0.2.14
+npm WARN In grunt@0.4.5 replacing bundled version of colors with colors@0.6.2
+npm WARN In grunt@0.4.5 replacing bundled version of glob with glob@3.2.11
+npm WARN In grunt@0.4.5 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In grunt@0.4.5 replacing bundled version of minimatch with minimatch@0.3.0
+npm WARN In grunt@0.4.5 replacing bundled version of nopt with nopt@1.0.10
+npm WARN In grunt@0.4.5 replacing bundled version of dateformat with dateformat@1.0.2-1.2.3
+npm WARN In grunt@0.4.5 replacing bundled version of which with which@1.0.9
+npm WARN In grunt@0.4.5 replacing bundled version of rimraf with rimraf@2.2.8
+npm WARN In grunt@0.4.5 replacing bundled version of async with async@0.1.22
+npm WARN In grunt@0.4.5 replacing bundled version of inherits with inherits@1.0.2
+npm WARN In grunt@0.4.5 replacing bundled version of lodash with lodash@0.9.2
+npm WARN In grunt@0.4.5 replacing bundled version of underscore.string with underscore.string@2.2.1
+npm WARN In grunt@0.4.5 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In grunt@0.4.5 replacing bundled version of graceful-fs with graceful-fs@1.2.3
+npm WARN In grunt@0.4.5 replacing bundled version of findup-sync with findup-sync@0.1.3
+npm WARN In grunt@0.4.5 replacing bundled version of glob with glob@3.1.21
+npm WARN In grunt-ng-constant@1.1.0 replacing bundled version of lodash with lodash@2.4.2
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of semver with semver@4.3.6
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of user-home with user-home@1.1.1
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yeoman-doctor@1.4.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In inquirer@0.8.5 replacing bundled version of ansi-regex with ansi-regex@1.1.1
+npm WARN In inquirer@0.8.5 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In inquirer@0.8.5 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In inquirer@0.8.5 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In inquirer@0.8.5 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In inquirer@0.8.5 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In vinyl-fs@2.2.1 replacing bundled version of object-assign with object-assign@4.0.1
+npm WARN In vinyl-fs@2.2.1 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In vinyl-fs@2.2.1 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In inquirer@0.8.5 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In inquirer@0.8.5 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In request@2.65.0 replacing bundled version of qs with qs@5.2.0
+npm WARN In express@2.5.11 replacing bundled version of connect with connect@1.9.2
+npm WARN In inquirer@0.9.0 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In inquirer@0.9.0 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In har-validator@2.0.3 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In har-validator@2.0.3 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In har-validator@2.0.3 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In har-validator@2.0.3 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In har-validator@2.0.3 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In har-validator@2.0.3 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of glob with glob@5.0.15
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of mime with mime@1.3.4
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In yeoman-generator@0.20.3 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In uglify-js@2.4.24 replacing bundled version of async with async@0.2.10
+npm WARN In uglify-js@2.4.24 replacing bundled version of source-map with source-map@0.1.34
+npm WARN In uglify-js@2.4.24 replacing bundled version of yargs with yargs@3.5.4
+npm WARN In uglify-js@2.4.24 replacing bundled version of window-size with window-size@0.1.0
+npm WARN In uglify-js@2.4.24 replacing bundled version of wordwrap with wordwrap@0.0.2
+npm WARN In fstream@1.0.8 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In fstream@1.0.8 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In uglify-js@2.6.1 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In uglify-js@2.6.1 replacing bundled version of async with async@0.2.10
+npm WARN In uglify-js@2.6.1 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In sass-graph@2.0.1 replacing bundled version of glob with glob@5.0.15
+npm WARN In postcss@4.1.16 replacing bundled version of source-map with source-map@0.4.4
+npm WARN In optimist@0.6.1 replacing bundled version of minimist with minimist@0.0.10
+npm WARN In optimist@0.6.1 replacing bundled version of wordwrap with wordwrap@0.0.3
+npm WARN In npmconf@2.1.2 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In npmconf@2.1.2 replacing bundled version of semver with semver@4.3.6
+npm WARN In npmconf@2.1.2 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In socket.io-parser@2.2.4 replacing bundled version of debug with debug@0.7.4
+npm WARN In customizr@1.0.0-alpha replacing bundled version of nopt with nopt@2.1.2
+npm WARN In customizr@1.0.0-alpha replacing bundled version of glob with glob@3.2.11
+npm WARN In customizr@1.0.0-alpha replacing bundled version of colors with colors@0.6.2
+npm WARN In customizr@1.0.0-alpha replacing bundled version of mkdirp with mkdirp@0.3.5
+npm WARN In customizr@1.0.0-alpha replacing bundled version of underscore with underscore@1.5.2
+npm WARN In customizr@1.0.0-alpha replacing bundled version of minimatch with minimatch@0.3.0
+npm WARN In customizr@1.0.0-alpha replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In doctrine@0.6.4 replacing bundled version of esutils with esutils@1.1.6
+npm WARN In clean-css@2.2.23 replacing bundled version of commander with commander@2.2.0
+npm WARN In argparse@0.1.16 replacing bundled version of underscore.string with underscore.string@2.4.0
+npm WARN In js-yaml@2.0.5 replacing bundled version of esprima with esprima@1.0.4
+npm WARN In twig@0.8.5 replacing bundled version of minimatch with minimatch@0.2.14
+npm WARN In twig@0.8.5 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In istanbul@0.4.1 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In istanbul@0.4.1 replacing bundled version of supports-color with supports-color@3.1.2
+npm WARN In istanbul@0.4.1 replacing bundled version of js-yaml with js-yaml@3.4.6
+npm WARN In istanbul@0.4.1 replacing bundled version of argparse with argparse@1.0.3
+npm WARN In istanbul@0.4.1 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In svgo@0.6.1 replacing bundled version of colors with colors@1.1.2
+npm WARN In svgo@0.6.1 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In svgo@0.6.1 replacing bundled version of js-yaml with js-yaml@3.4.6
+npm WARN In svgo@0.6.1 replacing bundled version of argparse with argparse@1.0.3
+npm WARN In svgo@0.6.1 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In htmlparser2@3.8.3 replacing bundled version of domutils with domutils@1.5.1
+npm WARN In htmlparser2@3.8.3 replacing bundled version of entities with entities@1.0.0
+npm WARN In htmlparser2@3.8.3 replacing bundled version of readable-stream with readable-stream@1.1.13
+npm WARN In jshint@2.8.0 replacing bundled version of shelljs with shelljs@0.3.0
+npm WARN In jshint@2.8.0 replacing bundled version of strip-json-comments with strip-json-comments@1.0.4
+npm WARN In jshint@2.8.0 replacing bundled version of lodash with lodash@3.7.0
+npm WARN In karma@0.13.15 replacing bundled version of minimatch with minimatch@3.0.0
+npm WARN In karma@0.13.15 replacing bundled version of glob with glob@5.0.15
+npm WARN In karma@0.13.15 replacing bundled version of colors with colors@1.1.2
+npm WARN In karma@0.13.15 replacing bundled version of batch with batch@0.5.3
+npm WARN In karma@0.13.15 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In karma@0.13.15 replacing bundled version of mime with mime@1.3.4
+npm WARN In log4js@0.6.29 replacing bundled version of readable-stream with readable-stream@1.0.33
+npm WARN In log4js@0.6.29 replacing bundled version of semver with semver@4.3.6
+npm WARN In log4js@0.6.29 replacing bundled version of underscore with underscore@1.8.2
+npm WARN In log4js@0.6.29 replacing bundled version of async with async@0.2.10
+npm WARN In ng-annotate@1.2.0 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In node-gyp@3.2.1 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In node-gyp@3.2.1 replacing bundled version of minimatch with minimatch@1.0.0
+npm WARN In node-gyp@3.2.1 replacing bundled version of minimatch with minimatch@2.0.10
+npm WARN In node-gyp@3.2.1 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In node-gyp@3.2.1 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In node-gyp@3.2.1 replacing bundled version of glob with glob@4.5.3
+npm WARN In handlebars@4.0.5 replacing bundled version of source-map with source-map@0.4.4
+npm WARN In handlebars@4.0.5 replacing bundled version of async with async@0.2.10
+npm WARN In handlebars@4.0.5 replacing bundled version of source-map with source-map@0.5.3
+npm WARN In handlebars@4.0.5 replacing bundled version of yargs with yargs@3.10.0
+npm WARN In handlebars@4.0.5 replacing bundled version of cliui with cliui@2.1.0
+npm WARN In handlebars@4.0.5 replacing bundled version of window-size with window-size@0.1.0
+npm WARN In handlebars@4.0.5 replacing bundled version of wordwrap with wordwrap@0.0.2
+npm WARN In handlebars@4.0.5 replacing bundled version of uglify-js with uglify-js@2.6.1
+npm WARN In grunt-build-control@0.6.1 replacing bundled version of semver with semver@4.3.6
+npm WARN In grunt-build-control@0.6.1 replacing bundled version of shelljs with shelljs@0.2.6
+npm WARN In node-sass@3.4.2 replacing bundled version of glob with glob@5.0.15
+npm WARN In node-sass@3.4.2 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In node-sass@3.4.2 replacing bundled version of chalk with chalk@1.1.1
+npm WARN In node-sass@3.4.2 replacing bundled version of has-ansi with has-ansi@2.0.0
+npm WARN In node-sass@3.4.2 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In node-sass@3.4.2 replacing bundled version of supports-color with supports-color@2.0.0
+npm WARN In node-sass@3.4.2 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In node-sass@3.4.2 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In node-sass@3.4.2 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In modernizr@3.2.0 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In modernizr@3.2.0 replacing bundled version of requirejs with requirejs@2.1.20
+npm WARN In modernizr@3.2.0 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of mkdirp with mkdirp@0.5.1
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of chalk with chalk@1.0.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of yo with yo@1.4.8
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of lodash with lodash@3.10.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of has-ansi with has-ansi@1.0.3
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of ansi-styles with ansi-styles@2.1.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of strip-ansi with strip-ansi@2.0.1
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of supports-color with supports-color@1.3.1
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of ansi-regex with ansi-regex@1.1.1
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of minimist with minimist@0.0.8
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of ansi-regex with ansi-regex@2.0.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of strip-ansi with strip-ansi@3.0.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of got with got@4.2.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of cross-spawn with cross-spawn@0.4.1
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of lru-cache with lru-cache@2.7.3
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of pinkie-promise with pinkie-promise@1.0.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of pinkie with pinkie@1.0.0
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of rx-lite with rx-lite@2.5.2
+npm WARN In generator-jhipster@2.26.1 replacing bundled version of inquirer with inquirer@0.9.0
+bower angular-local-storage#0.2.3           cached git://github.com/grevory/angular-local-storage.git#0.2.3
+bower angular-local-storage#0.2.3         validate 0.2.3 against git://github.com/grevory/angular-local-storage.git#0.2.3
+bower angular-aria#1.4.8                    cached git://github.com/angular/bower-angular-aria.git#1.4.8
+bower angular-aria#1.4.8                  validate 1.4.8 against git://github.com/angular/bower-angular-aria.git#1.4.8
+bower angular#1.4.8                         cached git://github.com/angular/bower-angular.git#1.4.8
+bower angular#1.4.8                       validate 1.4.8 against git://github.com/angular/bower-angular.git#1.4.8
+bower angular-cookies#1.4.8                 cached git://github.com/angular/bower-angular-cookies.git#1.4.8
+bower angular-cookies#1.4.8               validate 1.4.8 against git://github.com/angular/bower-angular-cookies.git#1.4.8
+bower angular-cache-buster#0.4.3            cached git://github.com/saintmac/angular-cache-buster.git#0.4.3
+bower angular-cache-buster#0.4.3          validate 0.4.3 against git://github.com/saintmac/angular-cache-buster.git#0.4.3
+bower angular-loading-bar#0.8.0             cached git://github.com/chieffancypants/angular-loading-bar.git#0.8.0
+bower angular-loading-bar#0.8.0           validate 0.8.0 against git://github.com/chieffancypants/angular-loading-bar.git#0.8.0
+bower angular-resource#1.4.8                cached git://github.com/angular/bower-angular-resource.git#1.4.8
+bower angular-resource#1.4.8              validate 1.4.8 against git://github.com/angular/bower-angular-resource.git#1.4.8
+bower angular-bootstrap#0.14.3              cached git://github.com/angular-ui/bootstrap-bower.git#0.14.3
+bower angular-bootstrap#0.14.3            validate 0.14.3 against git://github.com/angular-ui/bootstrap-bower.git#0.14.3
+bower angular-sanitize#1.4.8                cached git://github.com/angular/bower-angular-sanitize.git#1.4.8
+bower angular-sanitize#1.4.8              validate 1.4.8 against git://github.com/angular/bower-angular-sanitize.git#1.4.8
+bower angular-ui-router#0.2.15              cached git://github.com/angular-ui/ui-router.git#0.2.15
+bower angular-ui-router#0.2.15            validate 0.2.15 against git://github.com/angular-ui/ui-router.git#0.2.15
+bower ngInfiniteScroll#1.2.1                cached git://github.com/sroze/ngInfiniteScroll.git#1.2.1
+bower ngInfiniteScroll#1.2.1              validate 1.2.1 against git://github.com/sroze/ngInfiniteScroll.git#1.2.1
+bower bootstrap-sass#3.3.5                  cached git://github.com/twbs/bootstrap-sass.git#3.3.5
+bower bootstrap-sass#3.3.5                validate 3.3.5 against git://github.com/twbs/bootstrap-sass.git#3.3.5
+bower modernizr#3.2.0                       cached git://github.com/Modernizr/Modernizr.git#3.2.0
+bower modernizr#3.2.0                     validate 3.2.0 against git://github.com/Modernizr/Modernizr.git#3.2.0
+bower jquery#2.1.4                          cached git://github.com/jquery/jquery.git#2.1.4
+bower jquery#2.1.4                        validate 2.1.4 against git://github.com/jquery/jquery.git#2.1.4
+bower swagger-ui#2.1.3                      cached git://github.com/wordnik/swagger-ui.git#2.1.3
+bower swagger-ui#2.1.3                    validate 2.1.3 against git://github.com/wordnik/swagger-ui.git#2.1.3
+bower angular-mocks#1.4.8                   cached git://github.com/angular/bower-angular-mocks.git#1.4.8
+bower angular-mocks#1.4.8                 validate 1.4.8 against git://github.com/angular/bower-angular-mocks.git#1.4.8
+bower json3#3.3.2                           cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#3.3.2                         validate 3.3.2 against git://github.com/bestiejs/json3.git#3.3.2
+bower ng-file-upload#10.0.2                 cached git://github.com/danialfarid/angular-file-upload-bower.git#10.0.2
+bower ng-file-upload#10.0.2               validate 10.0.2 against git://github.com/danialfarid/angular-file-upload-bower.git#10.0.2
+bower angular-scenario#1.4.8                cached git://github.com/angular/bower-angular-scenario.git#1.4.8
+bower angular-scenario#1.4.8              validate 1.4.8 against git://github.com/angular/bower-angular-scenario.git#1.4.8
+bower angular                     extra-resolution Unnecessary resolution: angular#1.4.8
+bower angular-cookies             extra-resolution Unnecessary resolution: angular-cookies#1.4.8
+bower jquery                      extra-resolution Unnecessary resolution: jquery#2.1.4
+bower angular-cache-buster#0.4.3           install angular-cache-buster#0.4.3
+bower angular-local-storage#0.2.3          install angular-local-storage#0.2.3
+bower angular-loading-bar#0.8.0            install angular-loading-bar#0.8.0
+bower angular-aria#1.4.8                   install angular-aria#1.4.8
+bower angular-bootstrap#0.14.3             install angular-bootstrap#0.14.3
+bower angular-cookies#1.4.8                install angular-cookies#1.4.8
+bower ngInfiniteScroll#1.2.1               install ngInfiniteScroll#1.2.1
+bower angular#1.4.8                        install angular#1.4.8
+bower angular-ui-router#0.2.15             install angular-ui-router#0.2.15
+bower angular-resource#1.4.8               install angular-resource#1.4.8
+bower angular-sanitize#1.4.8               install angular-sanitize#1.4.8
+bower modernizr#3.2.0                      install modernizr#3.2.0
+bower bootstrap-sass#3.3.5                 install bootstrap-sass#3.3.5
+bower swagger-ui#2.1.3                     install swagger-ui#2.1.3
+bower json3#3.3.2                          install json3#3.3.2
+bower ng-file-upload#10.0.2                install ng-file-upload#10.0.2
+bower angular-mocks#1.4.8                  install angular-mocks#1.4.8
+bower jquery#2.1.4                         install jquery#2.1.4
+bower angular-scenario#1.4.8               install angular-scenario#1.4.8
+
+angular-cache-buster#0.4.3 src/main/webapp/bower_components/angular-cache-buster
+
+angular-local-storage#0.2.3 src/main/webapp/bower_components/angular-local-storage
+
+angular-loading-bar#0.8.0 src/main/webapp/bower_components/angular-loading-bar
+└── angular#1.4.8
+
+angular-aria#1.4.8 src/main/webapp/bower_components/angular-aria
+└── angular#1.4.8
+
+angular-bootstrap#0.14.3 src/main/webapp/bower_components/angular-bootstrap
+└── angular#1.4.8
+
+angular-cookies#1.4.8 src/main/webapp/bower_components/angular-cookies
+└── angular#1.4.8
+
+ngInfiniteScroll#1.2.1 src/main/webapp/bower_components/ngInfiniteScroll
+└── angular#1.4.8
+
+angular#1.4.8 src/main/webapp/bower_components/angular
+
+angular-ui-router#0.2.15 src/main/webapp/bower_components/angular-ui-router
+└── angular#1.4.8
+
+angular-resource#1.4.8 src/main/webapp/bower_components/angular-resource
+└── angular#1.4.8
+
+angular-sanitize#1.4.8 src/main/webapp/bower_components/angular-sanitize
+└── angular#1.4.8
+
+modernizr#3.2.0 src/main/webapp/bower_components/modernizr
+
+bootstrap-sass#3.3.5 src/main/webapp/bower_components/bootstrap-sass
+└── jquery#2.1.4
+
+swagger-ui#2.1.3 src/main/webapp/bower_components/swagger-ui
+
+json3#3.3.2 src/main/webapp/bower_components/json3
+
+ng-file-upload#10.0.2 src/main/webapp/bower_components/ng-file-upload
+└── angular#1.4.8
+
+angular-mocks#1.4.8 src/main/webapp/bower_components/angular-mocks
+└── angular#1.4.8
+
+jquery#2.1.4 src/main/webapp/bower_components/jquery
+
+angular-scenario#1.4.8 src/main/webapp/bower_components/angular-scenario
+└── angular#1.4.8
+Running "ngconstant:dev" (ngconstant) task
+Creating module petitionApp at src/main/webapp/scripts/app/app.constants.js...OK
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:test" (wiredep) task
+
+Done, without errors.
+
+
+Execution Time (2015-12-28 19:39:23 UTC)
+loading tasks    82ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+ngconstant:dev   15ms  ▇▇▇▇▇▇▇ 5%
+wiredep:app     189ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
+wiredep:test     17ms  ▇▇▇▇▇▇▇ 6%
+Total 304ms
